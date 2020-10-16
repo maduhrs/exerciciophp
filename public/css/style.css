@@ -1,0 +1,7890 @@
+@font-face {
+  font-family: 'Minhafonte';
+  src:  url('fonts/Minhafonte.eot?i009xf');
+  src:  url('fonts/Minhafonte.eot?i009xf#iefix') format('embedded-opentype'),
+    url('fonts/Minhafonte.ttf?i009xf') format('truetype'),
+    url('fonts/Minhafonte.woff?i009xf') format('woff'),
+    url('fonts/Minhafonte.svg?i009xf#Minhafonte') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="duda-"], [class*=" duda-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'Minhafonte' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.duda-mail-envelope:before {
+  content: "\e900";
+}
+.duda-mail-envelope1:before {
+  content: "\e901";
+}
+.duda-mail-envelope-open:before {
+  content: "\e902";
+}
+.duda-mail-envelope-open1:before {
+  content: "\e903";
+}
+.duda-mail-envelope-closed:before {
+  content: "\e904";
+}
+.duda-flag1:before {
+  content: "\e905";
+}
+.duda-flag2:before {
+  content: "\e906";
+}
+.duda-flag3:before {
+  content: "\e907";
+}
+.duda-flag4:before {
+  content: "\e908";
+}
+.duda-flag5:before {
+  content: "\e909";
+}
+.duda-flag6:before {
+  content: "\e90a";
+}
+.duda-flag7:before {
+  content: "\e90b";
+}
+.duda-flag8:before {
+  content: "\e90c";
+}
+.duda-bookmark1:before {
+  content: "\e90d";
+}
+.duda-bookmark2:before {
+  content: "\e90e";
+}
+.duda-bookmark-add:before {
+  content: "\e90f";
+}
+.duda-bookmark-add1:before {
+  content: "\e910";
+}
+.duda-bookmark-remove:before {
+  content: "\e911";
+}
+.duda-bookmark-remove1:before {
+  content: "\e912";
+}
+.duda-eye-hidden:before {
+  content: "\e913";
+}
+.duda-eye-hidden1:before {
+  content: "\e914";
+}
+.duda-eye1:before {
+  content: "\e915";
+}
+.duda-eye2:before {
+  content: "\e916";
+}
+.duda-star:before {
+  content: "\e917";
+}
+.duda-star1:before {
+  content: "\e918";
+}
+.duda-key1:before {
+  content: "\e919";
+}
+.duda-key3:before {
+  content: "\e91a";
+}
+.duda-key4:before {
+  content: "\e91b";
+}
+.duda-key5:before {
+  content: "\e91c";
+}
+.duda-trash-can:before {
+  content: "\e91d";
+}
+.duda-trash-can1:before {
+  content: "\e91e";
+}
+.duda-trash-can2:before {
+  content: "\e91f";
+}
+.duda-trash-can3:before {
+  content: "\e920";
+}
+.duda-information:before {
+  content: "\e921";
+}
+.duda-information1:before {
+  content: "\e922";
+}
+.duda-information2:before {
+  content: "\e923";
+}
+.duda-information3:before {
+  content: "\e924";
+}
+.duda-book1:before {
+  content: "\e925";
+}
+.duda-book2:before {
+  content: "\e926";
+}
+.duda-book-bookmark:before {
+  content: "\e927";
+}
+.duda-book-bookmark1:before {
+  content: "\e928";
+}
+.duda-clipboard-edit:before {
+  content: "\e929";
+}
+.duda-clipboard-edit1:before {
+  content: "\e92a";
+}
+.duda-clipboard-add:before {
+  content: "\e92b";
+}
+.duda-clipboard-add1:before {
+  content: "\e92c";
+}
+.duda-clipboard-remove:before {
+  content: "\e92d";
+}
+.duda-clipboard-remove1:before {
+  content: "\e92e";
+}
+.duda-clipboard1:before {
+  content: "\e92f";
+}
+.duda-clipboard2:before {
+  content: "\e930";
+}
+.duda-clipboard-download:before {
+  content: "\e931";
+}
+.duda-clipboard-download1:before {
+  content: "\e932";
+}
+.duda-clipboard-upload:before {
+  content: "\e933";
+}
+.duda-clipboard-upload1:before {
+  content: "\e934";
+}
+.duda-clipboard-checked:before {
+  content: "\e935";
+}
+.duda-clipboard-checked1:before {
+  content: "\e936";
+}
+.duda-clipboard-text:before {
+  content: "\e937";
+}
+.duda-clipboard-text1:before {
+  content: "\e938";
+}
+.duda-clipboard-list:before {
+  content: "\e939";
+}
+.duda-clipboard-list1:before {
+  content: "\e93a";
+}
+.duda-note:before {
+  content: "\e93b";
+}
+.duda-note1:before {
+  content: "\e93c";
+}
+.duda-note-add:before {
+  content: "\e93d";
+}
+.duda-note-add1:before {
+  content: "\e93e";
+}
+.duda-note-remove:before {
+  content: "\e93f";
+}
+.duda-note-remove1:before {
+  content: "\e940";
+}
+.duda-note-text:before {
+  content: "\e941";
+}
+.duda-note-text1:before {
+  content: "\e942";
+}
+.duda-note-list:before {
+  content: "\e943";
+}
+.duda-note-list1:before {
+  content: "\e944";
+}
+.duda-note-checked:before {
+  content: "\e945";
+}
+.duda-note-checked1:before {
+  content: "\e946";
+}
+.duda-note-important:before {
+  content: "\e947";
+}
+.duda-note-important1:before {
+  content: "\e948";
+}
+.duda-notebook:before {
+  content: "\e949";
+}
+.duda-notebook1:before {
+  content: "\e94a";
+}
+.duda-notebook2:before {
+  content: "\e94b";
+}
+.duda-notebook3:before {
+  content: "\e94c";
+}
+.duda-notebook4:before {
+  content: "\e94d";
+}
+.duda-notebook5:before {
+  content: "\e94e";
+}
+.duda-notebook6:before {
+  content: "\e94f";
+}
+.duda-notebook7:before {
+  content: "\e950";
+}
+.duda-notebook-text:before {
+  content: "\e951";
+}
+.duda-notebook-text1:before {
+  content: "\e952";
+}
+.duda-notebook-list:before {
+  content: "\e953";
+}
+.duda-notebook-list1:before {
+  content: "\e954";
+}
+.duda-document:before {
+  content: "\e955";
+}
+.duda-document1:before {
+  content: "\e956";
+}
+.duda-document-text:before {
+  content: "\e957";
+}
+.duda-document-text1:before {
+  content: "\e958";
+}
+.duda-document-text2:before {
+  content: "\e959";
+}
+.duda-document-text3:before {
+  content: "\e95a";
+}
+.duda-document-download:before {
+  content: "\e95b";
+}
+.duda-document-download1:before {
+  content: "\e95c";
+}
+.duda-document-upload:before {
+  content: "\e95d";
+}
+.duda-document-upload1:before {
+  content: "\e95e";
+}
+.duda-document-bookmark:before {
+  content: "\e95f";
+}
+.duda-document-bookmark1:before {
+  content: "\e960";
+}
+.duda-document-diagrams:before {
+  content: "\e961";
+}
+.duda-document-diagrams1:before {
+  content: "\e962";
+}
+.duda-document-recording:before {
+  content: "\e963";
+}
+.duda-document-recording1:before {
+  content: "\e964";
+}
+.duda-document-table:before {
+  content: "\e965";
+}
+.duda-document-table1:before {
+  content: "\e966";
+}
+.duda-document-music:before {
+  content: "\e967";
+}
+.duda-document-music1:before {
+  content: "\e968";
+}
+.duda-document-movie:before {
+  content: "\e969";
+}
+.duda-document-movie1:before {
+  content: "\e96a";
+}
+.duda-document-play:before {
+  content: "\e96b";
+}
+.duda-document-play1:before {
+  content: "\e96c";
+}
+.duda-document-graph:before {
+  content: "\e96d";
+}
+.duda-document-graph1:before {
+  content: "\e96e";
+}
+.duda-document-time:before {
+  content: "\e96f";
+}
+.duda-document-time1:before {
+  content: "\e970";
+}
+.duda-document-text4:before {
+  content: "\e971";
+}
+.duda-document-text5:before {
+  content: "\e972";
+}
+.duda-document-code:before {
+  content: "\e973";
+}
+.duda-document-code1:before {
+  content: "\e974";
+}
+.duda-document-cloud:before {
+  content: "\e975";
+}
+.duda-document-cloud1:before {
+  content: "\e976";
+}
+.duda-documents:before {
+  content: "\e977";
+}
+.duda-documents1:before {
+  content: "\e978";
+}
+.duda-documents2:before {
+  content: "\e979";
+}
+.duda-folder-remove:before {
+  content: "\e97a";
+}
+.duda-folder-remove1:before {
+  content: "\e97b";
+}
+.duda-folder-forbidden:before {
+  content: "\e97c";
+}
+.duda-folder-forbidden1:before {
+  content: "\e97d";
+}
+.duda-folder-bookmark:before {
+  content: "\e97e";
+}
+.duda-folder-bookmark1:before {
+  content: "\e97f";
+}
+.duda-document-zip:before {
+  content: "\e980";
+}
+.duda-document-zip1:before {
+  content: "\e981";
+}
+.duda-zip:before {
+  content: "\e982";
+}
+.duda-zip1:before {
+  content: "\e983";
+}
+.duda-search1:before {
+  content: "\e984";
+}
+.duda-search2:before {
+  content: "\e985";
+}
+.duda-search-plus:before {
+  content: "\e986";
+}
+.duda-search-plus1:before {
+  content: "\e987";
+}
+.duda-search-minus:before {
+  content: "\e988";
+}
+.duda-search-minus1:before {
+  content: "\e989";
+}
+.duda-lock1:before {
+  content: "\e98a";
+}
+.duda-lock2:before {
+  content: "\e98b";
+}
+.duda-lock-open:before {
+  content: "\e98c";
+}
+.duda-lock-open1:before {
+  content: "\e98d";
+}
+.duda-lock-open2:before {
+  content: "\e98e";
+}
+.duda-lock-open3:before {
+  content: "\e98f";
+}
+.duda-lock-stripes:before {
+  content: "\e990";
+}
+.duda-lock-stripes1:before {
+  content: "\e991";
+}
+.duda-lock-rounded:before {
+  content: "\e992";
+}
+.duda-lock-rounded1:before {
+  content: "\e993";
+}
+.duda-lock-rounded-open:before {
+  content: "\e994";
+}
+.duda-lock-rounded-open1:before {
+  content: "\e995";
+}
+.duda-lock-rounded-open2:before {
+  content: "\e996";
+}
+.duda-lock-rounded-open3:before {
+  content: "\e997";
+}
+.duda-combination-lock:before {
+  content: "\e998";
+}
+.duda-combination-lock1:before {
+  content: "\e999";
+}
+.duda-printer1:before {
+  content: "\e99a";
+}
+.duda-printer2:before {
+  content: "\e99b";
+}
+.duda-printer3:before {
+  content: "\e99c";
+}
+.duda-printer4:before {
+  content: "\e99d";
+}
+.duda-printer-text:before {
+  content: "\e99e";
+}
+.duda-printer-text1:before {
+  content: "\e99f";
+}
+.duda-printer-text2:before {
+  content: "\e9a0";
+}
+.duda-printer-text3:before {
+  content: "\e9a1";
+}
+.duda-document-shred:before {
+  content: "\e9a2";
+}
+.duda-document-shred1:before {
+  content: "\e9a3";
+}
+.duda-shredder:before {
+  content: "\e9a4";
+}
+.duda-shredder1:before {
+  content: "\e9a5";
+}
+.duda-document-scan:before {
+  content: "\e9a6";
+}
+.duda-document-scan1:before {
+  content: "\e9a7";
+}
+.duda-cloud-download1:before {
+  content: "\e9a8";
+}
+.duda-cloud-download2:before {
+  content: "\e9a9";
+}
+.duda-cloud-upload1:before {
+  content: "\e9aa";
+}
+.duda-cloud-upload2:before {
+  content: "\e9ab";
+}
+.duda-cloud-error:before {
+  content: "\e9ac";
+}
+.duda-cloud-error1:before {
+  content: "\e9ad";
+}
+.duda-cloud1:before {
+  content: "\e9ae";
+}
+.duda-cloud2:before {
+  content: "\e9af";
+}
+.duda-inbox-filled:before {
+  content: "\e9b0";
+}
+.duda-inbox-filled1:before {
+  content: "\e9b1";
+}
+.duda-pen1:before {
+  content: "\e9b2";
+}
+.duda-pen2:before {
+  content: "\e9b3";
+}
+.duda-pen-angled:before {
+  content: "\e9b4";
+}
+.duda-pen-angled1:before {
+  content: "\e9b5";
+}
+.duda-document-edit:before {
+  content: "\e9b6";
+}
+.duda-document-edit1:before {
+  content: "\e9b7";
+}
+.duda-document-certificate:before {
+  content: "\e9b8";
+}
+.duda-document-certificate1:before {
+  content: "\e9b9";
+}
+.duda-certificate:before {
+  content: "\e9ba";
+}
+.duda-tag-cancel:before {
+  content: "\e9bb";
+}
+.duda-paperclip:before {
+  content: "\e9bc";
+}
+.duda-paperclip1:before {
+  content: "\e9bd";
+}
+.duda-basketball:before {
+  content: "\e9be";
+}
+.duda-basketball1:before {
+  content: "\e9bf";
+}
+.duda-baseball:before {
+  content: "\e9c0";
+}
+.duda-baseball1:before {
+  content: "\e9c1";
+}
+.duda-tennis-ball:before {
+  content: "\e9c2";
+}
+.duda-tennis-ball1:before {
+  content: "\e9c3";
+}
+.duda-bowling-ball:before {
+  content: "\e9c4";
+}
+.duda-bowling-ball1:before {
+  content: "\e9c5";
+}
+.duda-billiard-ball:before {
+  content: "\e9c6";
+}
+.duda-billiard-ball1:before {
+  content: "\e9c7";
+}
+.duda-soccer-ball:before {
+  content: "\e9c8";
+}
+.duda-soccer-ball1:before {
+  content: "\e9c9";
+}
+.duda-soccer-court:before {
+  content: "\e9ca";
+}
+.duda-soccer-court1:before {
+  content: "\e9cb";
+}
+.duda-football:before {
+  content: "\e9cc";
+}
+.duda-football1:before {
+  content: "\e9cd";
+}
+.duda-football2:before {
+  content: "\e9ce";
+}
+.duda-football3:before {
+  content: "\e9cf";
+}
+.duda-basketball2:before {
+  content: "\e9d0";
+}
+.duda-basketball3:before {
+  content: "\e9d1";
+}
+.duda-baseball-set:before {
+  content: "\e9d2";
+}
+.duda-baseball-set1:before {
+  content: "\e9d3";
+}
+.duda-tennis-ball2:before {
+  content: "\e9d4";
+}
+.duda-trophy1:before {
+  content: "\e9d5";
+}
+.duda-trophy2:before {
+  content: "\e9d6";
+}
+.duda-trophy-one:before {
+  content: "\e9d7";
+}
+.duda-trophy-one1:before {
+  content: "\e9d8";
+}
+.duda-trophy3:before {
+  content: "\e9d9";
+}
+.duda-trophy4:before {
+  content: "\e9da";
+}
+.duda-medal:before {
+  content: "\e9db";
+}
+.duda-medal1:before {
+  content: "\e9dc";
+}
+.duda-medal2:before {
+  content: "\e9dd";
+}
+.duda-medal3:before {
+  content: "\e9de";
+}
+.duda-weights:before {
+  content: "\e9df";
+}
+.duda-weights1:before {
+  content: "\e9e0";
+}
+.duda-tennis-racket:before {
+  content: "\e9e1";
+}
+.duda-tennis-racket1:before {
+  content: "\e9e2";
+}
+.duda-basketball-hoop:before {
+  content: "\e9e3";
+}
+.duda-basketball-hoop1:before {
+  content: "\e9e4";
+}
+.duda-table-tennis:before {
+  content: "\e9e5";
+}
+.duda-table-tennis1:before {
+  content: "\e9e6";
+}
+.duda-volleyball:before {
+  content: "\e9e7";
+}
+.duda-volleyball1:before {
+  content: "\e9e8";
+}
+.duda-stop-watch:before {
+  content: "\e9e9";
+}
+.duda-stop-watch1:before {
+  content: "\e9ea";
+}
+.duda-stop-watch2:before {
+  content: "\e9eb";
+}
+.duda-stop-watch3:before {
+  content: "\e9ec";
+}
+.duda-hockey-stick:before {
+  content: "\e9ed";
+}
+.duda-hockey-stick1:before {
+  content: "\e9ee";
+}
+.duda-hockey-sticks:before {
+  content: "\e9ef";
+}
+.duda-hockey-sticks1:before {
+  content: "\e9f0";
+}
+.duda-shuttlecock:before {
+  content: "\e9f1";
+}
+.duda-shuttlecock1:before {
+  content: "\e9f2";
+}
+.duda-golf:before {
+  content: "\e9f3";
+}
+.duda-golf1:before {
+  content: "\e9f4";
+}
+.duda-move:before {
+  content: "\e9f5";
+}
+.duda-move1:before {
+  content: "\e9f6";
+}
+.duda-clipboard-move:before {
+  content: "\e9f7";
+}
+.duda-clipboard-move1:before {
+  content: "\e9f8";
+}
+.duda-award:before {
+  content: "\e9f9";
+}
+.duda-award1:before {
+  content: "\e9fa";
+}
+.duda-award2:before {
+  content: "\e9fb";
+}
+.duda-award3:before {
+  content: "\e9fc";
+}
+.duda-award4:before {
+  content: "\e9fd";
+}
+.duda-award5:before {
+  content: "\e9fe";
+}
+.duda-award6:before {
+  content: "\e9ff";
+}
+.duda-award7:before {
+  content: "\ea00";
+}
+.duda-medal4:before {
+  content: "\ea01";
+}
+.duda-medal5:before {
+  content: "\ea02";
+}
+.duda-medal6:before {
+  content: "\ea03";
+}
+.duda-medal7:before {
+  content: "\ea04";
+}
+.duda-boxing-glove:before {
+  content: "\ea05";
+}
+.duda-boxing-glove1:before {
+  content: "\ea06";
+}
+.duda-whistle:before {
+  content: "\ea07";
+}
+.duda-whistle1:before {
+  content: "\ea08";
+}
+.duda-volleyball-water:before {
+  content: "\ea09";
+}
+.duda-volleyball-water1:before {
+  content: "\ea0a";
+}
+.duda-checkered-flag:before {
+  content: "\ea0b";
+}
+.duda-checkered-flag1:before {
+  content: "\ea0c";
+}
+.duda-target-arrow:before {
+  content: "\ea0d";
+}
+.duda-target-arrow1:before {
+  content: "\ea0e";
+}
+.duda-target1:before {
+  content: "\ea0f";
+}
+.duda-target2:before {
+  content: "\ea10";
+}
+.duda-sailing-boat:before {
+  content: "\ea11";
+}
+.duda-sailing-boat1:before {
+  content: "\ea12";
+}
+.duda-sailing-boat-water:before {
+  content: "\ea13";
+}
+.duda-sailing-boat-water1:before {
+  content: "\ea14";
+}
+.duda-bowling-pins:before {
+  content: "\ea15";
+}
+.duda-bowling-pins1:before {
+  content: "\ea16";
+}
+.duda-bowling-pin-ball:before {
+  content: "\ea17";
+}
+.duda-bowling-pin-ball1:before {
+  content: "\ea18";
+}
+.duda-diving-goggles:before {
+  content: "\ea19";
+}
+.duda-diving-goggles1:before {
+  content: "\ea1a";
+}
+.duda-sports-shoe:before {
+  content: "\ea1b";
+}
+.duda-sports-shoe1:before {
+  content: "\ea1c";
+}
+.duda-soccer-shoe:before {
+  content: "\ea1d";
+}
+.duda-soccer-shoe1:before {
+  content: "\ea1e";
+}
+.duda-ice-skate:before {
+  content: "\ea1f";
+}
+.duda-ice-skate1:before {
+  content: "\ea20";
+}
+.duda-cloud3:before {
+  content: "\ea21";
+}
+.duda-cloud4:before {
+  content: "\ea22";
+}
+.duda-cloud-sun:before {
+  content: "\ea23";
+}
+.duda-cloud-sun1:before {
+  content: "\ea24";
+}
+.duda-cloud-moon:before {
+  content: "\ea25";
+}
+.duda-cloud-moon1:before {
+  content: "\ea26";
+}
+.duda-cloud-rain:before {
+  content: "\ea27";
+}
+.duda-cloud-rain1:before {
+  content: "\ea28";
+}
+.duda-cloud-sun-rain:before {
+  content: "\ea29";
+}
+.duda-cloud-sun-rain1:before {
+  content: "\ea2a";
+}
+.duda-cloud-moon-rain:before {
+  content: "\ea2b";
+}
+.duda-cloud-moon-rain1:before {
+  content: "\ea2c";
+}
+.duda-cloud-snow:before {
+  content: "\ea2d";
+}
+.duda-cloud-snow1:before {
+  content: "\ea2e";
+}
+.duda-cloud-sun-snow:before {
+  content: "\ea2f";
+}
+.duda-cloud-sun-snow1:before {
+  content: "\ea30";
+}
+.duda-cloud-moon-snow:before {
+  content: "\ea31";
+}
+.duda-cloud-moon-snow1:before {
+  content: "\ea32";
+}
+.duda-cloud-lightning:before {
+  content: "\ea33";
+}
+.duda-cloud-lightning1:before {
+  content: "\ea34";
+}
+.duda-cloud-sun-lightning:before {
+  content: "\ea35";
+}
+.duda-cloud-sun-lightning1:before {
+  content: "\ea36";
+}
+.duda-cloud-moon-lightning:before {
+  content: "\ea37";
+}
+.duda-cloud-moon-lightning1:before {
+  content: "\ea38";
+}
+.duda-cloud-wind:before {
+  content: "\ea39";
+}
+.duda-cloud-wind1:before {
+  content: "\ea3a";
+}
+.duda-cloud-raindrops:before {
+  content: "\ea3b";
+}
+.duda-cloud-raindrops1:before {
+  content: "\ea3c";
+}
+.duda-cloud-sun-raindrops:before {
+  content: "\ea3d";
+}
+.duda-cloud-sun-raindrops1:before {
+  content: "\ea3e";
+}
+.duda-cloud-moon-raindrops:before {
+  content: "\ea3f";
+}
+.duda-cloud-moon-raindrops1:before {
+  content: "\ea40";
+}
+.duda-cloud-snowflakes:before {
+  content: "\ea41";
+}
+.duda-cloud-snowflakes1:before {
+  content: "\ea42";
+}
+.duda-cloud-sun-snowflakes:before {
+  content: "\ea43";
+}
+.duda-cloud-sun-snowflakes1:before {
+  content: "\ea44";
+}
+.duda-cloud-moon-snowflakes:before {
+  content: "\ea45";
+}
+.duda-cloud-moon-snowflakes1:before {
+  content: "\ea46";
+}
+.duda-clouds:before {
+  content: "\ea47";
+}
+.duda-clouds1:before {
+  content: "\ea48";
+}
+.duda-cloud-add:before {
+  content: "\ea49";
+}
+.duda-cloud-add1:before {
+  content: "\ea4a";
+}
+.duda-cloud-remove:before {
+  content: "\ea4b";
+}
+.duda-cloud-remove1:before {
+  content: "\ea4c";
+}
+.duda-cloud-error2:before {
+  content: "\ea4d";
+}
+.duda-cloud-error3:before {
+  content: "\ea4e";
+}
+.duda-cloud-fog:before {
+  content: "\ea4f";
+}
+.duda-cloud-fog1:before {
+  content: "\ea50";
+}
+.duda--cloud-sun-fog:before {
+  content: "\ea51";
+}
+.duda--cloud-sun-fog1:before {
+  content: "\ea52";
+}
+.duda-cloud-moon-fog:before {
+  content: "\ea53";
+}
+.duda-cloud-moon-fog1:before {
+  content: "\ea54";
+}
+.duda-moon-stars:before {
+  content: "\ea55";
+}
+.duda-moon-stars1:before {
+  content: "\ea56";
+}
+.duda-moon:before {
+  content: "\ea57";
+}
+.duda-moon1:before {
+  content: "\ea58";
+}
+.duda-sun1:before {
+  content: "\ea59";
+}
+.duda-sun2:before {
+  content: "\ea5a";
+}
+.duda-sunrise:before {
+  content: "\ea5b";
+}
+.duda-sunrise1:before {
+  content: "\ea5c";
+}
+.duda-sunset:before {
+  content: "\ea5d";
+}
+.duda-sunset1:before {
+  content: "\ea5e";
+}
+.duda-sunset2:before {
+  content: "\ea5f";
+}
+.duda-sunset3:before {
+  content: "\ea60";
+}
+.duda-sunset4:before {
+  content: "\ea61";
+}
+.duda-sunset5:before {
+  content: "\ea62";
+}
+.duda-rainbow:before {
+  content: "\ea63";
+}
+.duda-rainbow1:before {
+  content: "\ea64";
+}
+.duda-umbrella:before {
+  content: "\ea65";
+}
+.duda-umbrella1:before {
+  content: "\ea66";
+}
+.duda-raindrops:before {
+  content: "\ea67";
+}
+.duda-raindrops1:before {
+  content: "\ea68";
+}
+.duda-raindrop:before {
+  content: "\ea69";
+}
+.duda-raindrop1:before {
+  content: "\ea6a";
+}
+.duda-sunglasses:before {
+  content: "\ea6b";
+}
+.duda-sunglasses1:before {
+  content: "\ea6c";
+}
+.duda-stars:before {
+  content: "\ea6d";
+}
+.duda-stars1:before {
+  content: "\ea6e";
+}
+.duda-clouds2:before {
+  content: "\ea6f";
+}
+.duda-clouds3:before {
+  content: "\ea70";
+}
+.duda-moonrise:before {
+  content: "\ea71";
+}
+.duda-moonrise1:before {
+  content: "\ea72";
+}
+.duda-moonset:before {
+  content: "\ea73";
+}
+.duda-moonset1:before {
+  content: "\ea74";
+}
+.duda-wind:before {
+  content: "\ea75";
+}
+.duda-wind1:before {
+  content: "\ea76";
+}
+.duda-full-moon:before {
+  content: "\ea77";
+}
+.duda-full-moon1:before {
+  content: "\ea78";
+}
+.duda-crescent:before {
+  content: "\ea79";
+}
+.duda-crescent1:before {
+  content: "\ea7a";
+}
+.duda-half-moon:before {
+  content: "\ea7b";
+}
+.duda-half-moon1:before {
+  content: "\ea7c";
+}
+.duda-gibbous-moon:before {
+  content: "\ea7d";
+}
+.duda-gibbous-moon1:before {
+  content: "\ea7e";
+}
+.duda-moon2:before {
+  content: "\ea7f";
+}
+.duda-moon3:before {
+  content: "\ea80";
+}
+.duda-gibbous-moon2:before {
+  content: "\ea81";
+}
+.duda-gibbous-moon3:before {
+  content: "\ea82";
+}
+.duda-half-moon2:before {
+  content: "\ea83";
+}
+.duda-half-moon3:before {
+  content: "\ea84";
+}
+.duda-crescent2:before {
+  content: "\ea85";
+}
+.duda-crescent3:before {
+  content: "\ea86";
+}
+.duda-barometer:before {
+  content: "\ea87";
+}
+.duda-barometer1:before {
+  content: "\ea88";
+}
+.duda-compass-north:before {
+  content: "\ea89";
+}
+.duda-compass-north1:before {
+  content: "\ea8a";
+}
+.duda-compass-west:before {
+  content: "\ea8b";
+}
+.duda-compass-west1:before {
+  content: "\ea8c";
+}
+.duda-compass-east:before {
+  content: "\ea8d";
+}
+.duda-compass-east1:before {
+  content: "\ea8e";
+}
+.duda-compass-south:before {
+  content: "\ea8f";
+}
+.duda-compass-south1:before {
+  content: "\ea90";
+}
+.duda-air-sock:before {
+  content: "\ea91";
+}
+.duda-air-sock1:before {
+  content: "\ea92";
+}
+.duda-tornado:before {
+  content: "\ea93";
+}
+.duda-tornado1:before {
+  content: "\ea94";
+}
+.duda-degree-fahrenheit:before {
+  content: "\ea95";
+}
+.duda-degree-fahrenheit1:before {
+  content: "\ea96";
+}
+.duda-degree-celsius:before {
+  content: "\ea97";
+}
+.duda-degree-celsius1:before {
+  content: "\ea98";
+}
+.duda-warning1:before {
+  content: "\ea99";
+}
+.duda-warning2:before {
+  content: "\ea9a";
+}
+.duda-compass1:before {
+  content: "\ea9b";
+}
+.duda-compass3:before {
+  content: "\ea9c";
+}
+.duda-compass4:before {
+  content: "\ea9d";
+}
+.duda-compass5:before {
+  content: "\ea9e";
+}
+.duda-compass6:before {
+  content: "\ea9f";
+}
+.duda-compass7:before {
+  content: "\eaa0";
+}
+.duda-compass8:before {
+  content: "\eaa1";
+}
+.duda-compass9:before {
+  content: "\eaa2";
+}
+.duda-thermometer:before {
+  content: "\eaa3";
+}
+.duda-thermometer1:before {
+  content: "\eaa4";
+}
+.duda-thermometer-low:before {
+  content: "\eaa5";
+}
+.duda-thermometer-low1:before {
+  content: "\eaa6";
+}
+.duda-thermometer-quarter:before {
+  content: "\eaa7";
+}
+.duda-thermometer-quarter1:before {
+  content: "\eaa8";
+}
+.duda-thermometer-half:before {
+  content: "\eaa9";
+}
+.duda-thermometer-half1:before {
+  content: "\eaaa";
+}
+.duda-thermometer-three-quarters:before {
+  content: "\eaab";
+}
+.duda-thermometer-three-quarters1:before {
+  content: "\eaac";
+}
+.duda-thermometer-full:before {
+  content: "\eaad";
+}
+.duda-thermometer-full1:before {
+  content: "\eaae";
+}
+.duda-lightning:before {
+  content: "\eaaf";
+}
+.duda-lightning1:before {
+  content: "\eab0";
+}
+.duda-wind-turbine:before {
+  content: "\eab1";
+}
+.duda-wind-turbine1:before {
+  content: "\eab2";
+}
+.duda-snowflake:before {
+  content: "\eab3";
+}
+.duda-snowflake1:before {
+  content: "\eab4";
+}
+.duda-flashed-face:before {
+  content: "\eab5";
+}
+.duda-flashed-face1:before {
+  content: "\eab6";
+}
+.duda-flashed-face2:before {
+  content: "\eab7";
+}
+.duda-flashed-face3:before {
+  content: "\eab8";
+}
+.duda-flashed-face-glasses:before {
+  content: "\eab9";
+}
+.duda-flashed-face-glasses1:before {
+  content: "\eaba";
+}
+.duda-face-missing-moth:before {
+  content: "\eabb";
+}
+.duda-face-missing-moth1:before {
+  content: "\eabc";
+}
+.duda-neutral-face:before {
+  content: "\eabd";
+}
+.duda-neutral-face1:before {
+  content: "\eabe";
+}
+.duda-smiling-face:before {
+  content: "\eabf";
+}
+.duda-smiling-face1:before {
+  content: "\eac0";
+}
+.duda-sad-face:before {
+  content: "\eac1";
+}
+.duda-sad-face1:before {
+  content: "\eac2";
+}
+.duda-face-open-mouth:before {
+  content: "\eac3";
+}
+.duda-face-open-mouth1:before {
+  content: "\eac4";
+}
+.duda-face-open-mouth2:before {
+  content: "\eac5";
+}
+.duda-face-open-mouth3:before {
+  content: "\eac6";
+}
+.duda-winking-face:before {
+  content: "\eac7";
+}
+.duda-winking-face1:before {
+  content: "\eac8";
+}
+.duda-laughing-face:before {
+  content: "\eac9";
+}
+.duda-laughing-face1:before {
+  content: "\eaca";
+}
+.duda-laughing-face2:before {
+  content: "\eacb";
+}
+.duda-laughing-face3:before {
+  content: "\eacc";
+}
+.duda-smirking-face:before {
+  content: "\eacd";
+}
+.duda-smirking-face1:before {
+  content: "\eace";
+}
+.duda-stubborn-face:before {
+  content: "\eacf";
+}
+.duda-stubborn-face1:before {
+  content: "\ead0";
+}
+.duda-neutral-face2:before {
+  content: "\ead1";
+}
+.duda-neutral-face3:before {
+  content: "\ead2";
+}
+.duda-sad-face2:before {
+  content: "\ead3";
+}
+.duda-sad-face3:before {
+  content: "\ead4";
+}
+.duda-smiling-face2:before {
+  content: "\ead5";
+}
+.duda-smiling-face3:before {
+  content: "\ead6";
+}
+.duda-smiling-face-eyebrows:before {
+  content: "\ead7";
+}
+.duda-smiling-face-eyebrows1:before {
+  content: "\ead8";
+}
+.duda-grinning-face-eyebrows:before {
+  content: "\ead9";
+}
+.duda-grinning-face-eyebrows1:before {
+  content: "\eada";
+}
+.duda-sad-face-eyebrows:before {
+  content: "\eadb";
+}
+.duda-sad-face-eyebrows1:before {
+  content: "\eadc";
+}
+.duda-neutral-face-eyebrows:before {
+  content: "\eadd";
+}
+.duda-neutral-face-eyebrows1:before {
+  content: "\eade";
+}
+.duda-angry-face:before {
+  content: "\eadf";
+}
+.duda-angry-face1:before {
+  content: "\eae0";
+}
+.duda-worried-face:before {
+  content: "\eae1";
+}
+.duda-worried-face1:before {
+  content: "\eae2";
+}
+.duda-winking-face2:before {
+  content: "\eae3";
+}
+.duda-winking-face3:before {
+  content: "\eae4";
+}
+.duda-angry-face-eyebrows:before {
+  content: "\eae5";
+}
+.duda-angry-face-eyebrows1:before {
+  content: "\eae6";
+}
+.duda-grinning-face:before {
+  content: "\eae7";
+}
+.duda-grinning-face1:before {
+  content: "\eae8";
+}
+.duda-sad-face4:before {
+  content: "\eae9";
+}
+.duda-sad-face5:before {
+  content: "\eaea";
+}
+.duda-grinning-face-eyebrows2:before {
+  content: "\eaeb";
+}
+.duda-grinning-face-eyebrows3:before {
+  content: "\eaec";
+}
+.duda-fake-grinning-face-eyebrows:before {
+  content: "\eaed";
+}
+.duda-fake-grinning-face-eyebrows1:before {
+  content: "\eaee";
+}
+.duda-worried-face-eyebrows:before {
+  content: "\eaef";
+}
+.duda-worried-face-eyebrows1:before {
+  content: "\eaf0";
+}
+.duda-face-stuck-out-tongue:before {
+  content: "\eaf1";
+}
+.duda-face-stuck-out-tongue1:before {
+  content: "\eaf2";
+}
+.duda-face-stuck-out-tongue2:before {
+  content: "\eaf3";
+}
+.duda-face-stuck-out-tongue3:before {
+  content: "\eaf4";
+}
+.duda-kissing-face:before {
+  content: "\eaf5";
+}
+.duda-kissing-face1:before {
+  content: "\eaf6";
+}
+.duda-grinning-face-teeth:before {
+  content: "\eaf7";
+}
+.duda-grinning-face-teeth1:before {
+  content: "\eaf8";
+}
+.duda-angry-face-teeth:before {
+  content: "\eaf9";
+}
+.duda-angry-face-teeth1:before {
+  content: "\eafa";
+}
+.duda-worried-face-teeth:before {
+  content: "\eafb";
+}
+.duda-worried-face-teeth1:before {
+  content: "\eafc";
+}
+.duda-grinning-face-teeth2:before {
+  content: "\eafd";
+}
+.duda-grinning-face-teeth3:before {
+  content: "\eafe";
+}
+.duda-face-open-mouth-eyebrows:before {
+  content: "\eaff";
+}
+.duda-face-open-mouth-eyebrows1:before {
+  content: "\eb00";
+}
+.duda-face-open-mouth-eyebrows2:before {
+  content: "\eb01";
+}
+.duda-face-open-mouth-eyebrows3:before {
+  content: "\eb02";
+}
+.duda-angry-face-open-mouth-eyebrows:before {
+  content: "\eb03";
+}
+.duda-angry-face-open-mouth-eyebrows1:before {
+  content: "\eb04";
+}
+.duda-unamused-face-tightly-closed-eyes:before {
+  content: "\eb05";
+}
+.duda-unamused-face-tightly-closed-eyes1:before {
+  content: "\eb06";
+}
+.duda-sad-face--tightly-closed-eyes:before {
+  content: "\eb07";
+}
+.duda-sad-face--tightly-closed-eyes1:before {
+  content: "\eb08";
+}
+.duda-kissing-face2:before {
+  content: "\eb09";
+}
+.duda-kissing-face3:before {
+  content: "\eb0a";
+}
+.duda-face-closed-meyes:before {
+  content: "\eb0b";
+}
+.duda-face-closed-meyes1:before {
+  content: "\eb0c";
+}
+.duda-amused-face:before {
+  content: "\eb0d";
+}
+.duda-amused-face1:before {
+  content: "\eb0e";
+}
+.duda-amused-face-closed-eyes:before {
+  content: "\eb0f";
+}
+.duda-amused-face-closed-eyes1:before {
+  content: "\eb10";
+}
+.duda-amused-face-closed-eyes2:before {
+  content: "\eb11";
+}
+.duda-amused-face-closed-eyes3:before {
+  content: "\eb12";
+}
+.duda-face-closed-eyes-open-mouth:before {
+  content: "\eb13";
+}
+.duda-face-closed-eyes-open-mouth1:before {
+  content: "\eb14";
+}
+.duda-face-closed-eyes-open-mouth2:before {
+  content: "\eb15";
+}
+.duda-face-closed-eyes-open-mouth3:before {
+  content: "\eb16";
+}
+.duda-face-closed-eyes-open-mouth4:before {
+  content: "\eb17";
+}
+.duda-face-closed-eyes-open-mouth5:before {
+  content: "\eb18";
+}
+.duda-laughing-face4:before {
+  content: "\eb19";
+}
+.duda-laughing-face5:before {
+  content: "\eb1a";
+}
+.duda-smiling-face4:before {
+  content: "\eb1b";
+}
+.duda-smiling-face5:before {
+  content: "\eb1c";
+}
+.duda-grinning-face2:before {
+  content: "\eb1d";
+}
+.duda-grinning-face3:before {
+  content: "\eb1e";
+}
+.duda-sad-face6:before {
+  content: "\eb1f";
+}
+.duda-sad-face7:before {
+  content: "\eb20";
+}
+.duda-sad-face8:before {
+  content: "\eb21";
+}
+.duda-sad-face9:before {
+  content: "\eb22";
+}
+.duda-sad-face-closed-eyes:before {
+  content: "\eb23";
+}
+.duda-sad-face-closed-eyes1:before {
+  content: "\eb24";
+}
+.duda-sad-face10:before {
+  content: "\eb25";
+}
+.duda-sad-face11:before {
+  content: "\eb26";
+}
+.duda-smiling-face6:before {
+  content: "\eb27";
+}
+.duda-smiling-face7:before {
+  content: "\eb28";
+}
+.duda-astonished-face:before {
+  content: "\eb29";
+}
+.duda-astonished-face1:before {
+  content: "\eb2a";
+}
+.duda-astonished-face2:before {
+  content: "\eb2b";
+}
+.duda-astonished-face3:before {
+  content: "\eb2c";
+}
+.duda-face-moustache:before {
+  content: "\eb2d";
+}
+.duda-face-moustache1:before {
+  content: "\eb2e";
+}
+.duda-face-moustache2:before {
+  content: "\eb2f";
+}
+.duda-face-moustache3:before {
+  content: "\eb30";
+}
+.duda-face-glasses:before {
+  content: "\eb31";
+}
+.duda-face-glasses1:before {
+  content: "\eb32";
+}
+.duda-face-sunglasses:before {
+  content: "\eb33";
+}
+.duda-face-sunglasses1:before {
+  content: "\eb34";
+}
+.duda-smirking-face-sunglasses:before {
+  content: "\eb35";
+}
+.duda-smirking-face-sunglasses1:before {
+  content: "\eb36";
+}
+.duda-middle-finger:before {
+  content: "\eb37";
+}
+.duda-middle-finger1:before {
+  content: "\eb38";
+}
+.duda-rock-n-roll:before {
+  content: "\eb39";
+}
+.duda-rock-n-roll1:before {
+  content: "\eb3a";
+}
+.duda-high-five:before {
+  content: "\eb3b";
+}
+.duda-high-five1:before {
+  content: "\eb3c";
+}
+.duda-thumb-up:before {
+  content: "\eb3d";
+}
+.duda-thumb-up1:before {
+  content: "\eb3e";
+}
+.duda-thumb-down:before {
+  content: "\eb3f";
+}
+.duda-thumb-down1:before {
+  content: "\eb40";
+}
+.duda-thumb-up2:before {
+  content: "\eb41";
+}
+.duda-thumb-up3:before {
+  content: "\eb42";
+}
+.duda-thumb-down2:before {
+  content: "\eb43";
+}
+.duda-thumb-down3:before {
+  content: "\eb44";
+}
+.duda-two-fingers-swipe-left:before {
+  content: "\eb45";
+}
+.duda-two-fingers-swipe-left1:before {
+  content: "\eb46";
+}
+.duda-two-fingers-swipe-right:before {
+  content: "\eb47";
+}
+.duda-two-fingers-swipe-right1:before {
+  content: "\eb48";
+}
+.duda-two-fingers-swipe-up:before {
+  content: "\eb49";
+}
+.duda-two-fingers-swipe-up1:before {
+  content: "\eb4a";
+}
+.duda-two-fingers-swipe-down:before {
+  content: "\eb4b";
+}
+.duda-two-fingers-swipe-down1:before {
+  content: "\eb4c";
+}
+.duda-two-fingers:before {
+  content: "\eb4d";
+}
+.duda-two-fingers1:before {
+  content: "\eb4e";
+}
+.duda-three-fingers-double-tap:before {
+  content: "\eb4f";
+}
+.duda-three-fingers-double-tap1:before {
+  content: "\eb50";
+}
+.duda-two-fingers-resize-out:before {
+  content: "\eb51";
+}
+.duda-two-fingers-resize-out1:before {
+  content: "\eb52";
+}
+.duda-two-fingers-resize-in:before {
+  content: "\eb53";
+}
+.duda-two-fingers-resize-in1:before {
+  content: "\eb54";
+}
+.duda-two-fingers-rotate:before {
+  content: "\eb55";
+}
+.duda-two-fingers-rotate1:before {
+  content: "\eb56";
+}
+.duda-one-finger-swipe-left:before {
+  content: "\eb57";
+}
+.duda-one-finger-swipe-left1:before {
+  content: "\eb58";
+}
+.duda-one-finger-swipe-right:before {
+  content: "\eb59";
+}
+.duda-one-finger-swipe-right1:before {
+  content: "\eb5a";
+}
+.duda-one-finger-swipe-up:before {
+  content: "\eb5b";
+}
+.duda-one-finger-swipe-up1:before {
+  content: "\eb5c";
+}
+.duda-one-finger-swipe-down:before {
+  content: "\eb5d";
+}
+.duda-one-finger-swipe-down1:before {
+  content: "\eb5e";
+}
+.duda-one-finger:before {
+  content: "\eb5f";
+}
+.duda-one-finger1:before {
+  content: "\eb60";
+}
+.duda-one-finger-double-tap:before {
+  content: "\eb61";
+}
+.duda-one-finger-double-tap1:before {
+  content: "\eb62";
+}
+.duda-one-finger-tap:before {
+  content: "\eb63";
+}
+.duda-one-finger-tap1:before {
+  content: "\eb64";
+}
+.duda-one-finger-tap-hold:before {
+  content: "\eb65";
+}
+.duda-one-finger-tap-hold1:before {
+  content: "\eb66";
+}
+.duda-thumb-finger-tap:before {
+  content: "\eb67";
+}
+.duda-thumb-finger-tap1:before {
+  content: "\eb68";
+}
+.duda-one-finger-click:before {
+  content: "\eb69";
+}
+.duda-one-finger-click1:before {
+  content: "\eb6a";
+}
+.duda-three-fingers-swipe-left:before {
+  content: "\eb6b";
+}
+.duda-three-fingers-swipe-left1:before {
+  content: "\eb6c";
+}
+.duda-three-fingers-swipe-right:before {
+  content: "\eb6d";
+}
+.duda-three-fingers-swipe-right1:before {
+  content: "\eb6e";
+}
+.duda-three-fingers-swipe-up:before {
+  content: "\eb6f";
+}
+.duda-three-fingers-swipe-up1:before {
+  content: "\eb70";
+}
+.duda-three-fingers-swipe-down:before {
+  content: "\eb71";
+}
+.duda-three-fingers-swipe-down1:before {
+  content: "\eb72";
+}
+.duda-three-fingers:before {
+  content: "\eb73";
+}
+.duda-three-fingers1:before {
+  content: "\eb74";
+}
+.duda-three-fingers-double-tap2:before {
+  content: "\eb75";
+}
+.duda-three-fingers-double-tap3:before {
+  content: "\eb76";
+}
+.duda-two-fingers-swipe-up2:before {
+  content: "\eb77";
+}
+.duda-two-fingers-swipe-up3:before {
+  content: "\eb78";
+}
+.duda-one-finger-double-tap2:before {
+  content: "\eb79";
+}
+.duda-one-finger-double-tap3:before {
+  content: "\eb7a";
+}
+.duda-two-fingers-swipe-down2:before {
+  content: "\eb7b";
+}
+.duda-two-fingers-swipe-down3:before {
+  content: "\eb7c";
+}
+.duda-two-fingers-swipe-right2:before {
+  content: "\eb7d";
+}
+.duda-two-fingers-swipe-right3:before {
+  content: "\eb7e";
+}
+.duda-two-fingers-swipe-left2:before {
+  content: "\eb7f";
+}
+.duda-two-fingers-swipe-left3:before {
+  content: "\eb80";
+}
+.duda-one-finger-tap2:before {
+  content: "\eb81";
+}
+.duda-one-finger-tap3:before {
+  content: "\eb82";
+}
+.duda-one-finger-tap-hold2:before {
+  content: "\eb83";
+}
+.duda-one-finger-tap-hold3:before {
+  content: "\eb84";
+}
+.duda-one-finger-click2:before {
+  content: "\eb85";
+}
+.duda-one-finger-click3:before {
+  content: "\eb86";
+}
+.duda-one-finger-swipe-horizontally:before {
+  content: "\eb87";
+}
+.duda-one-finger-swipe-horizontally1:before {
+  content: "\eb88";
+}
+.duda-one-finger-swipe:before {
+  content: "\eb89";
+}
+.duda-one-finger-swipe1:before {
+  content: "\eb8a";
+}
+.duda-two-fingers-double-tap:before {
+  content: "\eb8b";
+}
+.duda-two-fingers-double-tap1:before {
+  content: "\eb8c";
+}
+.duda-two-fingers-tap:before {
+  content: "\eb8d";
+}
+.duda-two-fingers-tap1:before {
+  content: "\eb8e";
+}
+.duda-one-finger-swipe-left2:before {
+  content: "\eb8f";
+}
+.duda-one-finger-swipe-left3:before {
+  content: "\eb90";
+}
+.duda-one-finger-swipe-right2:before {
+  content: "\eb91";
+}
+.duda-one-finger-swipe-right3:before {
+  content: "\eb92";
+}
+.duda-one-finger-swipe-up2:before {
+  content: "\eb93";
+}
+.duda-one-finger-swipe-up3:before {
+  content: "\eb94";
+}
+.duda-one-finger-swipe-down2:before {
+  content: "\eb95";
+}
+.duda-one-finger-swipe-down3:before {
+  content: "\eb96";
+}
+.duda-file-numbers:before {
+  content: "\eb97";
+}
+.duda-file-numbers1:before {
+  content: "\eb98";
+}
+.duda-file-pages:before {
+  content: "\eb99";
+}
+.duda-file-pages1:before {
+  content: "\eb9a";
+}
+.duda-file-app:before {
+  content: "\eb9b";
+}
+.duda-file-app1:before {
+  content: "\eb9c";
+}
+.duda-file-png:before {
+  content: "\eb9d";
+}
+.duda-file-png1:before {
+  content: "\eb9e";
+}
+.duda-file-pdf1:before {
+  content: "\eb9f";
+}
+.duda-file-pdf2:before {
+  content: "\eba0";
+}
+.duda-file-mp3:before {
+  content: "\eba1";
+}
+.duda-file-mp31:before {
+  content: "\eba2";
+}
+.duda-file-mp4:before {
+  content: "\eba3";
+}
+.duda-file-mp41:before {
+  content: "\eba4";
+}
+.duda-file-mov:before {
+  content: "\eba5";
+}
+.duda-file-mov1:before {
+  content: "\eba6";
+}
+.duda-file-jpg:before {
+  content: "\eba7";
+}
+.duda-file-jpg1:before {
+  content: "\eba8";
+}
+.duda-file-key:before {
+  content: "\eba9";
+}
+.duda-file-key1:before {
+  content: "\ebaa";
+}
+.duda-file-html:before {
+  content: "\ebab";
+}
+.duda-file-html1:before {
+  content: "\ebac";
+}
+.duda-file-css:before {
+  content: "\ebad";
+}
+.duda-file-css1:before {
+  content: "\ebae";
+}
+.duda-file-java:before {
+  content: "\ebaf";
+}
+.duda-file-java1:before {
+  content: "\ebb0";
+}
+.duda-file-psd:before {
+  content: "\ebb1";
+}
+.duda-file-psd1:before {
+  content: "\ebb2";
+}
+.duda-file-ai:before {
+  content: "\ebb3";
+}
+.duda-file-ai1:before {
+  content: "\ebb4";
+}
+.duda-file-bmp:before {
+  content: "\ebb5";
+}
+.duda-file-bmp1:before {
+  content: "\ebb6";
+}
+.duda-file-dwg:before {
+  content: "\ebb7";
+}
+.duda-file-dwg1:before {
+  content: "\ebb8";
+}
+.duda-file-eps:before {
+  content: "\ebb9";
+}
+.duda-file-eps1:before {
+  content: "\ebba";
+}
+.duda-file-tiff:before {
+  content: "\ebbb";
+}
+.duda-file-tiff1:before {
+  content: "\ebbc";
+}
+.duda-file-ots:before {
+  content: "\ebbd";
+}
+.duda-file-ots1:before {
+  content: "\ebbe";
+}
+.duda-file-php:before {
+  content: "\ebbf";
+}
+.duda-file-php1:before {
+  content: "\ebc0";
+}
+.duda-file-py:before {
+  content: "\ebc1";
+}
+.duda-file-py1:before {
+  content: "\ebc2";
+}
+.duda-file-c:before {
+  content: "\ebc3";
+}
+.duda-file-c1:before {
+  content: "\ebc4";
+}
+.duda-file-sql:before {
+  content: "\ebc5";
+}
+.duda-file-sql1:before {
+  content: "\ebc6";
+}
+.duda-file-rb:before {
+  content: "\ebc7";
+}
+.duda-file-rb1:before {
+  content: "\ebc8";
+}
+.duda-file-cpp:before {
+  content: "\ebc9";
+}
+.duda-file-cpp1:before {
+  content: "\ebca";
+}
+.duda-file-tga:before {
+  content: "\ebcb";
+}
+.duda-file-tga1:before {
+  content: "\ebcc";
+}
+.duda-file-dxf:before {
+  content: "\ebcd";
+}
+.duda-file-dxf1:before {
+  content: "\ebce";
+}
+.duda-file-doc:before {
+  content: "\ebcf";
+}
+.duda-file-doc1:before {
+  content: "\ebd0";
+}
+.duda-file-odt:before {
+  content: "\ebd1";
+}
+.duda-file-odt1:before {
+  content: "\ebd2";
+}
+.duda-file-xls:before {
+  content: "\ebd3";
+}
+.duda-file-xls1:before {
+  content: "\ebd4";
+}
+.duda-file-docx:before {
+  content: "\ebd5";
+}
+.duda-file-docx1:before {
+  content: "\ebd6";
+}
+.duda-file-ppt:before {
+  content: "\ebd7";
+}
+.duda-file-ppt1:before {
+  content: "\ebd8";
+}
+.duda-file-asp:before {
+  content: "\ebd9";
+}
+.duda-file-asp1:before {
+  content: "\ebda";
+}
+.duda-file-ics:before {
+  content: "\ebdb";
+}
+.duda-file-ics1:before {
+  content: "\ebdc";
+}
+.duda-file-dat:before {
+  content: "\ebdd";
+}
+.duda-file-dat1:before {
+  content: "\ebde";
+}
+.duda-file-xml:before {
+  content: "\ebdf";
+}
+.duda-file-xml1:before {
+  content: "\ebe0";
+}
+.duda-file-yml:before {
+  content: "\ebe1";
+}
+.duda-file-yml1:before {
+  content: "\ebe2";
+}
+.duda-file-h:before {
+  content: "\ebe3";
+}
+.duda-file-h1:before {
+  content: "\ebe4";
+}
+.duda-file-exe:before {
+  content: "\ebe5";
+}
+.duda-file-exe1:before {
+  content: "\ebe6";
+}
+.duda-file-avi:before {
+  content: "\ebe7";
+}
+.duda-file-avi1:before {
+  content: "\ebe8";
+}
+.duda-file-odp:before {
+  content: "\ebe9";
+}
+.duda-file-odp1:before {
+  content: "\ebea";
+}
+.duda-file-dotx:before {
+  content: "\ebeb";
+}
+.duda-file-dotx1:before {
+  content: "\ebec";
+}
+.duda-file-xlsx:before {
+  content: "\ebed";
+}
+.duda-file-xlsx1:before {
+  content: "\ebee";
+}
+.duda-file-ods:before {
+  content: "\ebef";
+}
+.duda-file-ods1:before {
+  content: "\ebf0";
+}
+.duda-file-pps:before {
+  content: "\ebf1";
+}
+.duda-file-pps1:before {
+  content: "\ebf2";
+}
+.duda-file-dot:before {
+  content: "\ebf3";
+}
+.duda-file-dot1:before {
+  content: "\ebf4";
+}
+.duda-file-txt:before {
+  content: "\ebf5";
+}
+.duda-file-txt1:before {
+  content: "\ebf6";
+}
+.duda-file-rtf:before {
+  content: "\ebf7";
+}
+.duda-file-rtf1:before {
+  content: "\ebf8";
+}
+.duda-file-m4v:before {
+  content: "\ebf9";
+}
+.duda-file-m4v1:before {
+  content: "\ebfa";
+}
+.duda-file-flv:before {
+  content: "\ebfb";
+}
+.duda-file-flv1:before {
+  content: "\ebfc";
+}
+.duda-file-mpg:before {
+  content: "\ebfd";
+}
+.duda-file-mpg1:before {
+  content: "\ebfe";
+}
+.duda-file-quicktime:before {
+  content: "\ebff";
+}
+.duda-file-quicktime1:before {
+  content: "\ec00";
+}
+.duda-file-mid:before {
+  content: "\ec01";
+}
+.duda-file-mid1:before {
+  content: "\ec02";
+}
+.duda-file-3gp:before {
+  content: "\ec03";
+}
+.duda-file-3gp1:before {
+  content: "\ec04";
+}
+.duda-file-aiff:before {
+  content: "\ec05";
+}
+.duda-file-aiff1:before {
+  content: "\ec06";
+}
+.duda-file-aac:before {
+  content: "\ec07";
+}
+.duda-file-aac1:before {
+  content: "\ec08";
+}
+.duda-file-wav:before {
+  content: "\ec09";
+}
+.duda-file-wav1:before {
+  content: "\ec0a";
+}
+.duda-file-zip1:before {
+  content: "\ec0b";
+}
+.duda-file-zip2:before {
+  content: "\ec0c";
+}
+.duda-file-ott:before {
+  content: "\ec0d";
+}
+.duda-file-ott1:before {
+  content: "\ec0e";
+}
+.duda-file-tgz:before {
+  content: "\ec0f";
+}
+.duda-file-tgz1:before {
+  content: "\ec10";
+}
+.duda-file-dmg:before {
+  content: "\ec11";
+}
+.duda-file-dmg1:before {
+  content: "\ec12";
+}
+.duda-file-iso:before {
+  content: "\ec13";
+}
+.duda-file-iso1:before {
+  content: "\ec14";
+}
+.duda-file-rar:before {
+  content: "\ec15";
+}
+.duda-file-rar1:before {
+  content: "\ec16";
+}
+.duda-file-gif:before {
+  content: "\ec17";
+}
+.duda-file-gif1:before {
+  content: "\ec18";
+}
+.duda-document-file-numbers:before {
+  content: "\ec19";
+}
+.duda-document-file-numbers1:before {
+  content: "\ec1a";
+}
+.duda-document-file-pages:before {
+  content: "\ec1b";
+}
+.duda-document-file-pages1:before {
+  content: "\ec1c";
+}
+.duda-document-file-app:before {
+  content: "\ec1d";
+}
+.duda-document-file-app1:before {
+  content: "\ec1e";
+}
+.duda-document-file-png:before {
+  content: "\ec1f";
+}
+.duda-document-file-png1:before {
+  content: "\ec20";
+}
+.duda-document-file-pdf:before {
+  content: "\ec21";
+}
+.duda-document-file-pdf1:before {
+  content: "\ec22";
+}
+.duda-document-file-mp3:before {
+  content: "\ec23";
+}
+.duda-document-file-mp31:before {
+  content: "\ec24";
+}
+.duda-document-file-mp4:before {
+  content: "\ec25";
+}
+.duda-document-file-mp41:before {
+  content: "\ec26";
+}
+.duda-document-file-mov:before {
+  content: "\ec27";
+}
+.duda-document-file-mov1:before {
+  content: "\ec28";
+}
+.duda-document-file-jpg:before {
+  content: "\ec29";
+}
+.duda-document-file-jpg1:before {
+  content: "\ec2a";
+}
+.duda-document-file-key:before {
+  content: "\ec2b";
+}
+.duda-document-file-key1:before {
+  content: "\ec2c";
+}
+.duda-document-file-html:before {
+  content: "\ec2d";
+}
+.duda-document-file-html1:before {
+  content: "\ec2e";
+}
+.duda-document-file-css:before {
+  content: "\ec2f";
+}
+.duda-document-file-css1:before {
+  content: "\ec30";
+}
+.duda-document-file-java:before {
+  content: "\ec31";
+}
+.duda-document-file-java1:before {
+  content: "\ec32";
+}
+.duda-document-file-psd:before {
+  content: "\ec33";
+}
+.duda-document-file-psd1:before {
+  content: "\ec34";
+}
+.duda-document-file-ai:before {
+  content: "\ec35";
+}
+.duda-document-file-ai1:before {
+  content: "\ec36";
+}
+.duda-document-file-bmp:before {
+  content: "\ec37";
+}
+.duda-document-file-bmp1:before {
+  content: "\ec38";
+}
+.duda-document-file-dwg:before {
+  content: "\ec39";
+}
+.duda-document-file-dwg1:before {
+  content: "\ec3a";
+}
+.duda-document-file-eps:before {
+  content: "\ec3b";
+}
+.duda-document-file-eps1:before {
+  content: "\ec3c";
+}
+.duda-document-file-tiff:before {
+  content: "\ec3d";
+}
+.duda-document-file-tiff1:before {
+  content: "\ec3e";
+}
+.duda-document-file-ots:before {
+  content: "\ec3f";
+}
+.duda-document-file-ots1:before {
+  content: "\ec40";
+}
+.duda-document-file-php:before {
+  content: "\ec41";
+}
+.duda-document-file-php1:before {
+  content: "\ec42";
+}
+.duda-document-file-py:before {
+  content: "\ec43";
+}
+.duda-document-file-py1:before {
+  content: "\ec44";
+}
+.duda-document-file-c:before {
+  content: "\ec45";
+}
+.duda-document-file-c1:before {
+  content: "\ec46";
+}
+.duda-document-file-sql:before {
+  content: "\ec47";
+}
+.duda-document-file-sql1:before {
+  content: "\ec48";
+}
+.duda-document-file-rb:before {
+  content: "\ec49";
+}
+.duda-document-file-rb1:before {
+  content: "\ec4a";
+}
+.duda-document-file-cpp:before {
+  content: "\ec4b";
+}
+.duda-document-file-cpp1:before {
+  content: "\ec4c";
+}
+.duda-document-file-tga:before {
+  content: "\ec4d";
+}
+.duda-document-file-tga1:before {
+  content: "\ec4e";
+}
+.duda-document-file-dxf:before {
+  content: "\ec4f";
+}
+.duda-document-file-dxf1:before {
+  content: "\ec50";
+}
+.duda-document-file-doc:before {
+  content: "\ec51";
+}
+.duda-document-file-doc1:before {
+  content: "\ec52";
+}
+.duda-document-file-odt:before {
+  content: "\ec53";
+}
+.duda-document-file-odt1:before {
+  content: "\ec54";
+}
+.duda-document-file-xls:before {
+  content: "\ec55";
+}
+.duda-document-file-xls1:before {
+  content: "\ec56";
+}
+.duda-document-file-docx:before {
+  content: "\ec57";
+}
+.duda-document-file-docx1:before {
+  content: "\ec58";
+}
+.duda-document-file-ppt:before {
+  content: "\ec59";
+}
+.duda-document-file-ppt1:before {
+  content: "\ec5a";
+}
+.duda-document-file-asp:before {
+  content: "\ec5b";
+}
+.duda-document-file-asp1:before {
+  content: "\ec5c";
+}
+.duda-document-file-ics:before {
+  content: "\ec5d";
+}
+.duda-document-file-ics1:before {
+  content: "\ec5e";
+}
+.duda-document-file-dat:before {
+  content: "\ec5f";
+}
+.duda-document-file-dat1:before {
+  content: "\ec60";
+}
+.duda-document-file-xml:before {
+  content: "\ec61";
+}
+.duda-document-file-xml1:before {
+  content: "\ec62";
+}
+.duda-document-file-yml:before {
+  content: "\ec63";
+}
+.duda-document-file-yml1:before {
+  content: "\ec64";
+}
+.duda-document-file-h:before {
+  content: "\ec65";
+}
+.duda-document-file-h1:before {
+  content: "\ec66";
+}
+.duda-document-file-exe:before {
+  content: "\ec67";
+}
+.duda-document-file-exe1:before {
+  content: "\ec68";
+}
+.duda-document-file-avi:before {
+  content: "\ec69";
+}
+.duda-document-file-avi1:before {
+  content: "\ec6a";
+}
+.duda-document-file-odp:before {
+  content: "\ec6b";
+}
+.duda-document-file-odp1:before {
+  content: "\ec6c";
+}
+.duda-document-file-dotx:before {
+  content: "\ec6d";
+}
+.duda-document-file-dotx1:before {
+  content: "\ec6e";
+}
+.duda-document-file-xlsx:before {
+  content: "\ec6f";
+}
+.duda-document-file-xlsx1:before {
+  content: "\ec70";
+}
+.duda-document-file-ods:before {
+  content: "\ec71";
+}
+.duda-document-file-ods1:before {
+  content: "\ec72";
+}
+.duda-document-file-pps:before {
+  content: "\ec73";
+}
+.duda-document-file-pps1:before {
+  content: "\ec74";
+}
+.duda-document-file-dot:before {
+  content: "\ec75";
+}
+.duda-document-file-dot1:before {
+  content: "\ec76";
+}
+.duda-document-file-txt:before {
+  content: "\ec77";
+}
+.duda-document-file-txt1:before {
+  content: "\ec78";
+}
+.duda-document-file-rtf:before {
+  content: "\ec79";
+}
+.duda-document-file-rtf1:before {
+  content: "\ec7a";
+}
+.duda-document-file-m4v:before {
+  content: "\ec7b";
+}
+.duda-document-file-m4v1:before {
+  content: "\ec7c";
+}
+.duda-document-file-flv:before {
+  content: "\ec7d";
+}
+.duda-document-file-flv1:before {
+  content: "\ec7e";
+}
+.duda-document-file-mpg:before {
+  content: "\ec7f";
+}
+.duda-document-file-mpg1:before {
+  content: "\ec80";
+}
+.duda-document-file-qt:before {
+  content: "\ec81";
+}
+.duda-document-file-qt1:before {
+  content: "\ec82";
+}
+.duda-document-file-mid:before {
+  content: "\ec83";
+}
+.duda-document-file-mid1:before {
+  content: "\ec84";
+}
+.duda-document-file-3gp:before {
+  content: "\ec85";
+}
+.duda-document-file-3gp1:before {
+  content: "\ec86";
+}
+.duda-document-file-aiff:before {
+  content: "\ec87";
+}
+.duda-document-file-aiff1:before {
+  content: "\ec88";
+}
+.duda-document-file-aac:before {
+  content: "\ec89";
+}
+.duda-document-file-aac1:before {
+  content: "\ec8a";
+}
+.duda-document-file-wav:before {
+  content: "\ec8b";
+}
+.duda-document-file-wav1:before {
+  content: "\ec8c";
+}
+.duda-document-file-zip:before {
+  content: "\ec8d";
+}
+.duda-document-file-zip1:before {
+  content: "\ec8e";
+}
+.duda-document-file-ott:before {
+  content: "\ec8f";
+}
+.duda-document-file-ott1:before {
+  content: "\ec90";
+}
+.duda-document-file-tgz:before {
+  content: "\ec91";
+}
+.duda-document-file-tgz1:before {
+  content: "\ec92";
+}
+.duda-document-file-dmg:before {
+  content: "\ec93";
+}
+.duda-document-file-dmg1:before {
+  content: "\ec94";
+}
+.duda-document-file-iso:before {
+  content: "\ec95";
+}
+.duda-document-file-iso1:before {
+  content: "\ec96";
+}
+.duda-document-file-rar:before {
+  content: "\ec97";
+}
+.duda-document-file-rar1:before {
+  content: "\ec98";
+}
+.duda-document-file-gif:before {
+  content: "\ec99";
+}
+.duda-document-file-gif1:before {
+  content: "\ec9a";
+}
+.duda-home:before {
+  content: "\ec9b";
+}
+.duda-home2:before {
+  content: "\ec9c";
+}
+.duda-home3:before {
+  content: "\ec9d";
+}
+.duda-office:before {
+  content: "\ec9e";
+}
+.duda-newspaper:before {
+  content: "\ec9f";
+}
+.duda-pencil:before {
+  content: "\eca0";
+}
+.duda-pencil2:before {
+  content: "\eca1";
+}
+.duda-quill:before {
+  content: "\eca2";
+}
+.duda-pen:before {
+  content: "\eca3";
+}
+.duda-blog:before {
+  content: "\eca4";
+}
+.duda-eyedropper:before {
+  content: "\eca5";
+}
+.duda-droplet:before {
+  content: "\eca6";
+}
+.duda-paint-format:before {
+  content: "\eca7";
+}
+.duda-image:before {
+  content: "\eca8";
+}
+.duda-images:before {
+  content: "\eca9";
+}
+.duda-camera:before {
+  content: "\ecaa";
+}
+.duda-headphones:before {
+  content: "\ecab";
+}
+.duda-music:before {
+  content: "\ecac";
+}
+.duda-play:before {
+  content: "\ecad";
+}
+.duda-film:before {
+  content: "\ecae";
+}
+.duda-video-camera:before {
+  content: "\ecaf";
+}
+.duda-dice:before {
+  content: "\ecb0";
+}
+.duda-pacman:before {
+  content: "\ecb1";
+}
+.duda-spades:before {
+  content: "\ecb2";
+}
+.duda-clubs:before {
+  content: "\ecb3";
+}
+.duda-diamonds:before {
+  content: "\ecb4";
+}
+.duda-bullhorn:before {
+  content: "\ecb5";
+}
+.duda-connection:before {
+  content: "\ecb6";
+}
+.duda-podcast:before {
+  content: "\ecb7";
+}
+.duda-feed:before {
+  content: "\ecb8";
+}
+.duda-mic:before {
+  content: "\ecb9";
+}
+.duda-book:before {
+  content: "\ecba";
+}
+.duda-books:before {
+  content: "\ecbb";
+}
+.duda-library:before {
+  content: "\ecbc";
+}
+.duda-file-text:before {
+  content: "\ecbd";
+}
+.duda-profile:before {
+  content: "\ecbe";
+}
+.duda-file-empty:before {
+  content: "\ecbf";
+}
+.duda-files-empty:before {
+  content: "\ecc0";
+}
+.duda-file-text2:before {
+  content: "\ecc1";
+}
+.duda-file-picture:before {
+  content: "\ecc2";
+}
+.duda-file-music:before {
+  content: "\ecc3";
+}
+.duda-file-play:before {
+  content: "\ecc4";
+}
+.duda-file-video:before {
+  content: "\ecc5";
+}
+.duda-file-zip:before {
+  content: "\ecc6";
+}
+.duda-copy:before {
+  content: "\ecc7";
+}
+.duda-paste:before {
+  content: "\ecc8";
+}
+.duda-stack:before {
+  content: "\ecc9";
+}
+.duda-folder:before {
+  content: "\ecca";
+}
+.duda-folder-open:before {
+  content: "\eccb";
+}
+.duda-folder-plus:before {
+  content: "\eccc";
+}
+.duda-folder-minus:before {
+  content: "\eccd";
+}
+.duda-folder-download:before {
+  content: "\ecce";
+}
+.duda-folder-upload:before {
+  content: "\eccf";
+}
+.duda-price-tag:before {
+  content: "\ecd0";
+}
+.duda-price-tags:before {
+  content: "\ecd1";
+}
+.duda-barcode:before {
+  content: "\ecd2";
+}
+.duda-qrcode:before {
+  content: "\ecd3";
+}
+.duda-ticket:before {
+  content: "\ecd4";
+}
+.duda-cart:before {
+  content: "\ecd5";
+}
+.duda-coin-dollar:before {
+  content: "\ecd6";
+}
+.duda-coin-euro:before {
+  content: "\ecd7";
+}
+.duda-coin-pound:before {
+  content: "\ecd8";
+}
+.duda-coin-yen:before {
+  content: "\ecd9";
+}
+.duda-credit-card:before {
+  content: "\ecda";
+}
+.duda-calculator:before {
+  content: "\ecdb";
+}
+.duda-lifebuoy:before {
+  content: "\ecdc";
+}
+.duda-phone:before {
+  content: "\ecdd";
+}
+.duda-phone-hang-up:before {
+  content: "\ecde";
+}
+.duda-address-book:before {
+  content: "\ecdf";
+}
+.duda-envelop:before {
+  content: "\ece0";
+}
+.duda-pushpin:before {
+  content: "\ece1";
+}
+.duda-location:before {
+  content: "\ece2";
+}
+.duda-location2:before {
+  content: "\ece3";
+}
+.duda-compass:before {
+  content: "\ece4";
+}
+.duda-compass2:before {
+  content: "\ece5";
+}
+.duda-map:before {
+  content: "\ece6";
+}
+.duda-map2:before {
+  content: "\ece7";
+}
+.duda-history:before {
+  content: "\ece8";
+}
+.duda-clock:before {
+  content: "\ece9";
+}
+.duda-clock2:before {
+  content: "\ecea";
+}
+.duda-alarm:before {
+  content: "\eceb";
+}
+.duda-bell:before {
+  content: "\ecec";
+}
+.duda-stopwatch:before {
+  content: "\eced";
+}
+.duda-calendar:before {
+  content: "\ecee";
+}
+.duda-printer:before {
+  content: "\ecef";
+}
+.duda-keyboard:before {
+  content: "\ecf0";
+}
+.duda-display:before {
+  content: "\ecf1";
+}
+.duda-laptop:before {
+  content: "\ecf2";
+}
+.duda-mobile:before {
+  content: "\ecf3";
+}
+.duda-mobile2:before {
+  content: "\ecf4";
+}
+.duda-tablet:before {
+  content: "\ecf5";
+}
+.duda-tv:before {
+  content: "\ecf6";
+}
+.duda-drawer:before {
+  content: "\ecf7";
+}
+.duda-drawer2:before {
+  content: "\ecf8";
+}
+.duda-box-add:before {
+  content: "\ecf9";
+}
+.duda-box-remove:before {
+  content: "\ecfa";
+}
+.duda-download:before {
+  content: "\ecfb";
+}
+.duda-upload:before {
+  content: "\ecfc";
+}
+.duda-floppy-disk:before {
+  content: "\ecfd";
+}
+.duda-drive:before {
+  content: "\ecfe";
+}
+.duda-database:before {
+  content: "\ecff";
+}
+.duda-undo:before {
+  content: "\ed00";
+}
+.duda-redo:before {
+  content: "\ed01";
+}
+.duda-undo2:before {
+  content: "\ed02";
+}
+.duda-redo2:before {
+  content: "\ed03";
+}
+.duda-forward:before {
+  content: "\ed04";
+}
+.duda-reply:before {
+  content: "\ed05";
+}
+.duda-bubble:before {
+  content: "\ed06";
+}
+.duda-bubbles:before {
+  content: "\ed07";
+}
+.duda-bubbles2:before {
+  content: "\ed08";
+}
+.duda-bubble2:before {
+  content: "\ed09";
+}
+.duda-bubbles3:before {
+  content: "\ed0a";
+}
+.duda-bubbles4:before {
+  content: "\ed0b";
+}
+.duda-user:before {
+  content: "\ed0c";
+}
+.duda-users:before {
+  content: "\ed0d";
+}
+.duda-user-plus:before {
+  content: "\ed0e";
+}
+.duda-user-minus:before {
+  content: "\ed0f";
+}
+.duda-user-check:before {
+  content: "\ed10";
+}
+.duda-user-tie:before {
+  content: "\ed11";
+}
+.duda-quotes-left:before {
+  content: "\ed12";
+}
+.duda-quotes-right:before {
+  content: "\ed13";
+}
+.duda-hour-glass:before {
+  content: "\ed14";
+}
+.duda-spinner:before {
+  content: "\ed15";
+}
+.duda-spinner2:before {
+  content: "\ed16";
+}
+.duda-spinner3:before {
+  content: "\ed17";
+}
+.duda-spinner4:before {
+  content: "\ed18";
+}
+.duda-spinner5:before {
+  content: "\ed19";
+}
+.duda-spinner6:before {
+  content: "\ed1a";
+}
+.duda-spinner7:before {
+  content: "\ed1b";
+}
+.duda-spinner8:before {
+  content: "\ed1c";
+}
+.duda-spinner9:before {
+  content: "\ed1d";
+}
+.duda-spinner10:before {
+  content: "\ed1e";
+}
+.duda-spinner11:before {
+  content: "\ed1f";
+}
+.duda-binoculars:before {
+  content: "\ed20";
+}
+.duda-search:before {
+  content: "\ed21";
+}
+.duda-zoom-in:before {
+  content: "\ed22";
+}
+.duda-zoom-out:before {
+  content: "\ed23";
+}
+.duda-enlarge:before {
+  content: "\ed24";
+}
+.duda-shrink:before {
+  content: "\ed25";
+}
+.duda-enlarge2:before {
+  content: "\ed26";
+}
+.duda-shrink2:before {
+  content: "\ed27";
+}
+.duda-key:before {
+  content: "\ed28";
+}
+.duda-key2:before {
+  content: "\ed29";
+}
+.duda-lock:before {
+  content: "\ed2a";
+}
+.duda-unlocked:before {
+  content: "\ed2b";
+}
+.duda-wrench:before {
+  content: "\ed2c";
+}
+.duda-equalizer:before {
+  content: "\ed2d";
+}
+.duda-equalizer2:before {
+  content: "\ed2e";
+}
+.duda-cog:before {
+  content: "\ed2f";
+}
+.duda-cogs:before {
+  content: "\ed30";
+}
+.duda-hammer:before {
+  content: "\ed31";
+}
+.duda-magic-wand:before {
+  content: "\ed32";
+}
+.duda-aid-kit:before {
+  content: "\ed33";
+}
+.duda-bug:before {
+  content: "\ed34";
+}
+.duda-pie-chart:before {
+  content: "\ed35";
+}
+.duda-stats-dots:before {
+  content: "\ed36";
+}
+.duda-stats-bars:before {
+  content: "\ed37";
+}
+.duda-stats-bars2:before {
+  content: "\ed38";
+}
+.duda-trophy:before {
+  content: "\ed39";
+}
+.duda-gift:before {
+  content: "\ed3a";
+}
+.duda-glass:before {
+  content: "\ed3b";
+}
+.duda-glass2:before {
+  content: "\ed3c";
+}
+.duda-mug:before {
+  content: "\ed3d";
+}
+.duda-spoon-knife:before {
+  content: "\ed3e";
+}
+.duda-leaf:before {
+  content: "\ed3f";
+}
+.duda-rocket:before {
+  content: "\ed40";
+}
+.duda-meter:before {
+  content: "\ed41";
+}
+.duda-meter2:before {
+  content: "\ed42";
+}
+.duda-hammer2:before {
+  content: "\ed43";
+}
+.duda-fire:before {
+  content: "\ed44";
+}
+.duda-lab:before {
+  content: "\ed45";
+}
+.duda-magnet:before {
+  content: "\ed46";
+}
+.duda-bin:before {
+  content: "\ed47";
+}
+.duda-bin2:before {
+  content: "\ed48";
+}
+.duda-briefcase:before {
+  content: "\ed49";
+}
+.duda-airplane:before {
+  content: "\ed4a";
+}
+.duda-truck:before {
+  content: "\ed4b";
+}
+.duda-road:before {
+  content: "\ed4c";
+}
+.duda-accessibility:before {
+  content: "\ed4d";
+}
+.duda-target:before {
+  content: "\ed4e";
+}
+.duda-shield:before {
+  content: "\ed4f";
+}
+.duda-power:before {
+  content: "\ed50";
+}
+.duda-switch:before {
+  content: "\ed51";
+}
+.duda-power-cord:before {
+  content: "\ed52";
+}
+.duda-clipboard:before {
+  content: "\ed53";
+}
+.duda-list-numbered:before {
+  content: "\ed54";
+}
+.duda-list:before {
+  content: "\ed55";
+}
+.duda-list2:before {
+  content: "\ed56";
+}
+.duda-tree:before {
+  content: "\ed57";
+}
+.duda-menu:before {
+  content: "\ed58";
+}
+.duda-menu2:before {
+  content: "\ed59";
+}
+.duda-menu3:before {
+  content: "\ed5a";
+}
+.duda-menu4:before {
+  content: "\ed5b";
+}
+.duda-cloud:before {
+  content: "\ed5c";
+}
+.duda-cloud-download:before {
+  content: "\ed5d";
+}
+.duda-cloud-upload:before {
+  content: "\ed5e";
+}
+.duda-cloud-check:before {
+  content: "\ed5f";
+}
+.duda-download2:before {
+  content: "\ed60";
+}
+.duda-upload2:before {
+  content: "\ed61";
+}
+.duda-download3:before {
+  content: "\ed62";
+}
+.duda-upload3:before {
+  content: "\ed63";
+}
+.duda-sphere:before {
+  content: "\ed64";
+}
+.duda-earth:before {
+  content: "\ed65";
+}
+.duda-link:before {
+  content: "\ed66";
+}
+.duda-flag:before {
+  content: "\ed67";
+}
+.duda-attachment:before {
+  content: "\ed68";
+}
+.duda-eye:before {
+  content: "\ed69";
+}
+.duda-eye-plus:before {
+  content: "\ed6a";
+}
+.duda-eye-minus:before {
+  content: "\ed6b";
+}
+.duda-eye-blocked:before {
+  content: "\ed6c";
+}
+.duda-bookmark:before {
+  content: "\ed6d";
+}
+.duda-bookmarks:before {
+  content: "\ed6e";
+}
+.duda-sun:before {
+  content: "\ed6f";
+}
+.duda-contrast:before {
+  content: "\ed70";
+}
+.duda-brightness-contrast:before {
+  content: "\ed71";
+}
+.duda-star-empty:before {
+  content: "\ed72";
+}
+.duda-star-half:before {
+  content: "\ed73";
+}
+.duda-star-full:before {
+  content: "\ed74";
+}
+.duda-heart:before {
+  content: "\ed75";
+}
+.duda-heart-broken:before {
+  content: "\ed76";
+}
+.duda-man:before {
+  content: "\ed77";
+}
+.duda-woman:before {
+  content: "\ed78";
+}
+.duda-man-woman:before {
+  content: "\ed79";
+}
+.duda-happy:before {
+  content: "\ed7a";
+}
+.duda-happy2:before {
+  content: "\ed7b";
+}
+.duda-smile:before {
+  content: "\ed7c";
+}
+.duda-smile2:before {
+  content: "\ed7d";
+}
+.duda-tongue:before {
+  content: "\ed7e";
+}
+.duda-tongue2:before {
+  content: "\ed7f";
+}
+.duda-sad:before {
+  content: "\ed80";
+}
+.duda-sad2:before {
+  content: "\ed81";
+}
+.duda-wink:before {
+  content: "\ed82";
+}
+.duda-wink2:before {
+  content: "\ed83";
+}
+.duda-grin:before {
+  content: "\ed84";
+}
+.duda-grin2:before {
+  content: "\ed85";
+}
+.duda-cool:before {
+  content: "\ed86";
+}
+.duda-cool2:before {
+  content: "\ed87";
+}
+.duda-angry:before {
+  content: "\ed88";
+}
+.duda-angry2:before {
+  content: "\ed89";
+}
+.duda-evil:before {
+  content: "\ed8a";
+}
+.duda-evil2:before {
+  content: "\ed8b";
+}
+.duda-shocked:before {
+  content: "\ed8c";
+}
+.duda-shocked2:before {
+  content: "\ed8d";
+}
+.duda-baffled:before {
+  content: "\ed8e";
+}
+.duda-baffled2:before {
+  content: "\ed8f";
+}
+.duda-confused:before {
+  content: "\ed90";
+}
+.duda-confused2:before {
+  content: "\ed91";
+}
+.duda-neutral:before {
+  content: "\ed92";
+}
+.duda-neutral2:before {
+  content: "\ed93";
+}
+.duda-hipster:before {
+  content: "\ed94";
+}
+.duda-hipster2:before {
+  content: "\ed95";
+}
+.duda-wondering:before {
+  content: "\ed96";
+}
+.duda-wondering2:before {
+  content: "\ed97";
+}
+.duda-sleepy:before {
+  content: "\ed98";
+}
+.duda-sleepy2:before {
+  content: "\ed99";
+}
+.duda-frustrated:before {
+  content: "\ed9a";
+}
+.duda-frustrated2:before {
+  content: "\ed9b";
+}
+.duda-crying:before {
+  content: "\ed9c";
+}
+.duda-crying2:before {
+  content: "\ed9d";
+}
+.duda-point-up:before {
+  content: "\ed9e";
+}
+.duda-point-right:before {
+  content: "\ed9f";
+}
+.duda-point-down:before {
+  content: "\eda0";
+}
+.duda-point-left:before {
+  content: "\eda1";
+}
+.duda-warning:before {
+  content: "\eda2";
+}
+.duda-notification:before {
+  content: "\eda3";
+}
+.duda-question:before {
+  content: "\eda4";
+}
+.duda-plus:before {
+  content: "\eda5";
+}
+.duda-minus:before {
+  content: "\eda6";
+}
+.duda-info:before {
+  content: "\eda7";
+}
+.duda-cancel-circle:before {
+  content: "\eda8";
+}
+.duda-blocked:before {
+  content: "\eda9";
+}
+.duda-cross:before {
+  content: "\edaa";
+}
+.duda-checkmark:before {
+  content: "\edab";
+}
+.duda-checkmark2:before {
+  content: "\edac";
+}
+.duda-spell-check:before {
+  content: "\edad";
+}
+.duda-enter:before {
+  content: "\edae";
+}
+.duda-exit:before {
+  content: "\edaf";
+}
+.duda-play2:before {
+  content: "\edb0";
+}
+.duda-pause:before {
+  content: "\edb1";
+}
+.duda-stop:before {
+  content: "\edb2";
+}
+.duda-previous:before {
+  content: "\edb3";
+}
+.duda-next:before {
+  content: "\edb4";
+}
+.duda-backward:before {
+  content: "\edb5";
+}
+.duda-forward2:before {
+  content: "\edb6";
+}
+.duda-play3:before {
+  content: "\edb7";
+}
+.duda-pause2:before {
+  content: "\edb8";
+}
+.duda-stop2:before {
+  content: "\edb9";
+}
+.duda-backward2:before {
+  content: "\edba";
+}
+.duda-forward3:before {
+  content: "\edbb";
+}
+.duda-first:before {
+  content: "\edbc";
+}
+.duda-last:before {
+  content: "\edbd";
+}
+.duda-previous2:before {
+  content: "\edbe";
+}
+.duda-next2:before {
+  content: "\edbf";
+}
+.duda-eject:before {
+  content: "\edc0";
+}
+.duda-volume-high:before {
+  content: "\edc1";
+}
+.duda-volume-medium:before {
+  content: "\edc2";
+}
+.duda-volume-low:before {
+  content: "\edc3";
+}
+.duda-volume-mute:before {
+  content: "\edc4";
+}
+.duda-volume-mute2:before {
+  content: "\edc5";
+}
+.duda-volume-increase:before {
+  content: "\edc6";
+}
+.duda-volume-decrease:before {
+  content: "\edc7";
+}
+.duda-loop:before {
+  content: "\edc8";
+}
+.duda-loop2:before {
+  content: "\edc9";
+}
+.duda-infinite:before {
+  content: "\edca";
+}
+.duda-shuffle:before {
+  content: "\edcb";
+}
+.duda-arrow-up-left:before {
+  content: "\edcc";
+}
+.duda-arrow-up:before {
+  content: "\edcd";
+}
+.duda-arrow-up-right:before {
+  content: "\edce";
+}
+.duda-arrow-right:before {
+  content: "\edcf";
+}
+.duda-arrow-down-right:before {
+  content: "\edd0";
+}
+.duda-arrow-down:before {
+  content: "\edd1";
+}
+.duda-arrow-down-left:before {
+  content: "\edd2";
+}
+.duda-arrow-left:before {
+  content: "\edd3";
+}
+.duda-arrow-up-left2:before {
+  content: "\edd4";
+}
+.duda-arrow-up2:before {
+  content: "\edd5";
+}
+.duda-arrow-up-right2:before {
+  content: "\edd6";
+}
+.duda-arrow-right2:before {
+  content: "\edd7";
+}
+.duda-arrow-down-right2:before {
+  content: "\edd8";
+}
+.duda-arrow-down2:before {
+  content: "\edd9";
+}
+.duda-arrow-down-left2:before {
+  content: "\edda";
+}
+.duda-arrow-left2:before {
+  content: "\eddb";
+}
+.duda-circle-up:before {
+  content: "\eddc";
+}
+.duda-circle-right:before {
+  content: "\eddd";
+}
+.duda-circle-down:before {
+  content: "\edde";
+}
+.duda-circle-left:before {
+  content: "\eddf";
+}
+.duda-tab:before {
+  content: "\ede0";
+}
+.duda-move-up:before {
+  content: "\ede1";
+}
+.duda-move-down:before {
+  content: "\ede2";
+}
+.duda-sort-alpha-asc:before {
+  content: "\ede3";
+}
+.duda-sort-alpha-desc:before {
+  content: "\ede4";
+}
+.duda-sort-numeric-asc:before {
+  content: "\ede5";
+}
+.duda-sort-numberic-desc:before {
+  content: "\ede6";
+}
+.duda-sort-amount-asc:before {
+  content: "\ede7";
+}
+.duda-sort-amount-desc:before {
+  content: "\ede8";
+}
+.duda-command:before {
+  content: "\ede9";
+}
+.duda-shift:before {
+  content: "\edea";
+}
+.duda-ctrl:before {
+  content: "\edeb";
+}
+.duda-opt:before {
+  content: "\edec";
+}
+.duda-checkbox-checked:before {
+  content: "\eded";
+}
+.duda-checkbox-unchecked:before {
+  content: "\edee";
+}
+.duda-radio-checked:before {
+  content: "\edef";
+}
+.duda-radio-checked2:before {
+  content: "\edf0";
+}
+.duda-radio-unchecked:before {
+  content: "\edf1";
+}
+.duda-crop:before {
+  content: "\edf2";
+}
+.duda-make-group:before {
+  content: "\edf3";
+}
+.duda-ungroup:before {
+  content: "\edf4";
+}
+.duda-scissors:before {
+  content: "\edf5";
+}
+.duda-filter:before {
+  content: "\edf6";
+}
+.duda-font:before {
+  content: "\edf7";
+}
+.duda-ligature:before {
+  content: "\edf8";
+}
+.duda-ligature2:before {
+  content: "\edf9";
+}
+.duda-text-height:before {
+  content: "\edfa";
+}
+.duda-text-width:before {
+  content: "\edfb";
+}
+.duda-font-size:before {
+  content: "\edfc";
+}
+.duda-bold:before {
+  content: "\edfd";
+}
+.duda-underline:before {
+  content: "\edfe";
+}
+.duda-italic:before {
+  content: "\edff";
+}
+.duda-strikethrough:before {
+  content: "\ee00";
+}
+.duda-omega:before {
+  content: "\ee01";
+}
+.duda-sigma:before {
+  content: "\ee02";
+}
+.duda-page-break:before {
+  content: "\ee03";
+}
+.duda-superscript:before {
+  content: "\ee04";
+}
+.duda-subscript:before {
+  content: "\ee05";
+}
+.duda-superscript2:before {
+  content: "\ee06";
+}
+.duda-subscript2:before {
+  content: "\ee07";
+}
+.duda-text-color:before {
+  content: "\ee08";
+}
+.duda-pagebreak:before {
+  content: "\ee09";
+}
+.duda-clear-formatting:before {
+  content: "\ee0a";
+}
+.duda-table:before {
+  content: "\ee0b";
+}
+.duda-table2:before {
+  content: "\ee0c";
+}
+.duda-insert-template:before {
+  content: "\ee0d";
+}
+.duda-pilcrow:before {
+  content: "\ee0e";
+}
+.duda-ltr:before {
+  content: "\ee0f";
+}
+.duda-rtl:before {
+  content: "\ee10";
+}
+.duda-section:before {
+  content: "\ee11";
+}
+.duda-paragraph-left:before {
+  content: "\ee12";
+}
+.duda-paragraph-center:before {
+  content: "\ee13";
+}
+.duda-paragraph-right:before {
+  content: "\ee14";
+}
+.duda-paragraph-justify:before {
+  content: "\ee15";
+}
+.duda-indent-increase:before {
+  content: "\ee16";
+}
+.duda-indent-decrease:before {
+  content: "\ee17";
+}
+.duda-share:before {
+  content: "\ee18";
+}
+.duda-new-tab:before {
+  content: "\ee19";
+}
+.duda-embed:before {
+  content: "\ee1a";
+}
+.duda-embed2:before {
+  content: "\ee1b";
+}
+.duda-terminal:before {
+  content: "\ee1c";
+}
+.duda-share2:before {
+  content: "\ee1d";
+}
+.duda-mail:before {
+  content: "\ee1e";
+}
+.duda-mail2:before {
+  content: "\ee1f";
+}
+.duda-mail3:before {
+  content: "\ee20";
+}
+.duda-mail4:before {
+  content: "\ee21";
+}
+.duda-amazon:before {
+  content: "\ee22";
+}
+.duda-google:before {
+  content: "\ee23";
+}
+.duda-google2:before {
+  content: "\ee24";
+}
+.duda-google3:before {
+  content: "\ee25";
+}
+.duda-google-plus:before {
+  content: "\ee26";
+}
+.duda-google-plus2:before {
+  content: "\ee27";
+}
+.duda-google-plus3:before {
+  content: "\ee28";
+}
+.duda-hangouts:before {
+  content: "\ee29";
+}
+.duda-google-drive:before {
+  content: "\ee2a";
+}
+.duda-facebook:before {
+  content: "\ee2b";
+}
+.duda-facebook2:before {
+  content: "\ee2c";
+}
+.duda-instagram:before {
+  content: "\ee2d";
+}
+.duda-whatsapp:before {
+  content: "\ee2e";
+}
+.duda-spotify:before {
+  content: "\ee2f";
+}
+.duda-telegram:before {
+  content: "\ee30";
+}
+.duda-twitter:before {
+  content: "\ee31";
+}
+.duda-vine:before {
+  content: "\ee32";
+}
+.duda-vk:before {
+  content: "\ee33";
+}
+.duda-renren:before {
+  content: "\ee34";
+}
+.duda-sina-weibo:before {
+  content: "\ee35";
+}
+.duda-rss:before {
+  content: "\ee36";
+}
+.duda-rss2:before {
+  content: "\ee37";
+}
+.duda-youtube:before {
+  content: "\ee38";
+}
+.duda-youtube2:before {
+  content: "\ee39";
+}
+.duda-twitch:before {
+  content: "\ee3a";
+}
+.duda-vimeo:before {
+  content: "\ee3b";
+}
+.duda-vimeo2:before {
+  content: "\ee3c";
+}
+.duda-lanyrd:before {
+  content: "\ee3d";
+}
+.duda-flickr:before {
+  content: "\ee3e";
+}
+.duda-flickr2:before {
+  content: "\ee3f";
+}
+.duda-flickr3:before {
+  content: "\ee40";
+}
+.duda-flickr4:before {
+  content: "\ee41";
+}
+.duda-dribbble:before {
+  content: "\ee42";
+}
+.duda-behance:before {
+  content: "\ee43";
+}
+.duda-behance2:before {
+  content: "\ee44";
+}
+.duda-deviantart:before {
+  content: "\ee45";
+}
+.duda-500px:before {
+  content: "\ee46";
+}
+.duda-steam:before {
+  content: "\ee47";
+}
+.duda-steam2:before {
+  content: "\ee48";
+}
+.duda-dropbox:before {
+  content: "\ee49";
+}
+.duda-onedrive:before {
+  content: "\ee4a";
+}
+.duda-github:before {
+  content: "\ee4b";
+}
+.duda-npm:before {
+  content: "\ee4c";
+}
+.duda-basecamp:before {
+  content: "\ee4d";
+}
+.duda-trello:before {
+  content: "\ee4e";
+}
+.duda-wordpress:before {
+  content: "\ee4f";
+}
+.duda-joomla:before {
+  content: "\ee50";
+}
+.duda-ello:before {
+  content: "\ee51";
+}
+.duda-blogger:before {
+  content: "\ee52";
+}
+.duda-blogger2:before {
+  content: "\ee53";
+}
+.duda-tumblr:before {
+  content: "\ee54";
+}
+.duda-tumblr2:before {
+  content: "\ee55";
+}
+.duda-yahoo:before {
+  content: "\ee56";
+}
+.duda-yahoo2:before {
+  content: "\ee57";
+}
+.duda-tux:before {
+  content: "\ee58";
+}
+.duda-appleinc:before {
+  content: "\ee59";
+}
+.duda-finder:before {
+  content: "\ee5a";
+}
+.duda-android:before {
+  content: "\ee5b";
+}
+.duda-windows:before {
+  content: "\ee5c";
+}
+.duda-windows8:before {
+  content: "\ee5d";
+}
+.duda-soundcloud:before {
+  content: "\ee5e";
+}
+.duda-soundcloud2:before {
+  content: "\ee5f";
+}
+.duda-skype:before {
+  content: "\ee60";
+}
+.duda-reddit:before {
+  content: "\ee61";
+}
+.duda-hackernews:before {
+  content: "\ee62";
+}
+.duda-wikipedia:before {
+  content: "\ee63";
+}
+.duda-linkedin:before {
+  content: "\ee64";
+}
+.duda-linkedin2:before {
+  content: "\ee65";
+}
+.duda-lastfm:before {
+  content: "\ee66";
+}
+.duda-lastfm2:before {
+  content: "\ee67";
+}
+.duda-delicious:before {
+  content: "\ee68";
+}
+.duda-stumbleupon:before {
+  content: "\ee69";
+}
+.duda-stumbleupon2:before {
+  content: "\ee6a";
+}
+.duda-stackoverflow:before {
+  content: "\ee6b";
+}
+.duda-pinterest:before {
+  content: "\ee6c";
+}
+.duda-pinterest2:before {
+  content: "\ee6d";
+}
+.duda-xing:before {
+  content: "\ee6e";
+}
+.duda-xing2:before {
+  content: "\ee6f";
+}
+.duda-flattr:before {
+  content: "\ee70";
+}
+.duda-foursquare:before {
+  content: "\ee71";
+}
+.duda-yelp:before {
+  content: "\ee72";
+}
+.duda-paypal:before {
+  content: "\ee73";
+}
+.duda-chrome:before {
+  content: "\ee74";
+}
+.duda-firefox:before {
+  content: "\ee75";
+}
+.duda-IE:before {
+  content: "\ee76";
+}
+.duda-edge:before {
+  content: "\ee77";
+}
+.duda-safari:before {
+  content: "\ee78";
+}
+.duda-opera:before {
+  content: "\ee79";
+}
+.duda-file-pdf:before {
+  content: "\ee7a";
+}
+.duda-file-openoffice:before {
+  content: "\ee7b";
+}
+.duda-file-word:before {
+  content: "\ee7c";
+}
+.duda-file-excel:before {
+  content: "\ee7d";
+}
+.duda-libreoffice:before {
+  content: "\ee7e";
+}
+.duda-html-five:before {
+  content: "\ee7f";
+}
+.duda-html-five2:before {
+  content: "\ee80";
+}
+.duda-css3:before {
+  content: "\ee81";
+}
+.duda-git:before {
+  content: "\ee82";
+}
+.duda-codepen:before {
+  content: "\ee83";
+}
+.duda-svg:before {
+  content: "\ee84";
+}
+.duda-IcoMoon:before {
+  content: "\ee85";
+}
+.duda-1password:before {
+  content: "\ee86";
+  color: #0094f5;
+}
+.duda-500px1:before {
+  content: "\ee87";
+  color: #0099e5;
+}
+.duda-abbrobotstudio:before {
+  content: "\ee88";
+  color: #ff9e0f;
+}
+.duda-about-dot-me:before {
+  content: "\ee89";
+  color: #00a98f;
+}
+.duda-abstract:before {
+  content: "\ee8a";
+}
+.duda-academia:before {
+  content: "\ee8b";
+}
+.duda-accusoft:before {
+  content: "\ee8c";
+  color: #ff7e4a;
+}
+.duda-acm:before {
+  content: "\ee8d";
+  color: #0085ca;
+}
+.duda-addthis:before {
+  content: "\ee8e";
+  color: #ff6550;
+}
+.duda-adguard:before {
+  content: "\ee8f";
+  color: #66b574;
+}
+.duda-adobe:before {
+  content: "\ee90";
+  color: #f00;
+}
+.duda-adobeacrobatreader:before {
+  content: "\ee91";
+  color: #ee3f24;
+}
+.duda-adobeaftereffects:before {
+  content: "\ee92";
+  color: #d291ff;
+}
+.duda-adobeaudition:before {
+  content: "\ee93";
+  color: #00e4bb;
+}
+.duda-adobecreativecloud:before {
+  content: "\ee94";
+  color: #d41818;
+}
+.duda-adobedreamweaver:before {
+  content: "\ee95";
+  color: #35fa00;
+}
+.duda-adobeillustrator:before {
+  content: "\ee96";
+  color: #ff7c00;
+}
+.duda-adobeindesign:before {
+  content: "\ee97";
+  color: #fd3f93;
+}
+.duda-adobelightroomcc:before {
+  content: "\ee98";
+  color: #3df0f0;
+}
+.duda-adobelightroomclassic:before {
+  content: "\ee99";
+  color: #add5ec;
+}
+.duda-adobephotoshop:before {
+  content: "\ee9a";
+  color: #00c8ff;
+}
+.duda-adobepremiere:before {
+  content: "\ee9b";
+  color: #ea77ff;
+}
+.duda-adobetypekit:before {
+  content: "\ee9c";
+  color: #87ec00;
+}
+.duda-adobexd:before {
+  content: "\ee9d";
+  color: #ff2bc2;
+}
+.duda-airbnb:before {
+  content: "\ee9e";
+  color: #ff5a5f;
+}
+.duda-airplayaudio:before {
+  content: "\ee9f";
+}
+.duda-airplayvideo:before {
+  content: "\eea0";
+}
+.duda-algolia:before {
+  content: "\eea1";
+  color: #5468ff;
+}
+.duda-alliedmodders:before {
+  content: "\eea2";
+  color: #1578d3;
+}
+.duda-amazon1:before {
+  content: "\eea3";
+  color: #f90;
+}
+.duda-amazonalexa:before {
+  content: "\eea4";
+  color: #00caff;
+}
+.duda-amazonaws:before {
+  content: "\eea5";
+}
+.duda-amd:before {
+  content: "\eea6";
+  color: #ed1c24;
+}
+.duda-americanexpress:before {
+  content: "\eea7";
+  color: #2e77bc;
+}
+.duda-anaconda:before {
+  content: "\eea8";
+  color: #42b029;
+}
+.duda-analogue:before {
+  content: "\eea9";
+}
+.duda-anchor:before {
+  content: "\eeaa";
+  color: #8940fa;
+}
+.duda-android1:before {
+  content: "\eeab";
+  color: #3ddc84;
+}
+.duda-angellist:before {
+  content: "\eeac";
+}
+.duda-angular:before {
+  content: "\eead";
+  color: #dd0031;
+}
+.duda-angularuniversal:before {
+  content: "\eeae";
+  color: #00acc1;
+}
+.duda-ansible:before {
+  content: "\eeaf";
+  color: #e00;
+}
+.duda-apache:before {
+  content: "\eeb0";
+  color: #d22128;
+}
+.duda-apacheairflow:before {
+  content: "\eeb1";
+  color: #007a88;
+}
+.duda-apachecordova:before {
+  content: "\eeb2";
+  color: #e8e8e8;
+}
+.duda-apacheflink:before {
+  content: "\eeb3";
+  color: #e6526f;
+}
+.duda-apachekafka:before {
+  content: "\eeb4";
+}
+.duda-apachenetbeanside:before {
+  content: "\eeb5";
+  color: #1b6ac6;
+}
+.duda-apacheopenoffice:before {
+  content: "\eeb6";
+  color: #0e85cd;
+}
+.duda-apacherocketmq:before {
+  content: "\eeb7";
+  color: #d77310;
+}
+.duda-apachespark:before {
+  content: "\eeb8";
+  color: #e25a1c;
+}
+.duda-apple:before {
+  content: "\eeb9";
+  color: #999;
+}
+.duda-applemusic:before {
+  content: "\eeba";
+}
+.duda-applepay:before {
+  content: "\eebb";
+}
+.duda-applepodcasts:before {
+  content: "\eebc";
+  color: #93c;
+}
+.duda-appveyor:before {
+  content: "\eebd";
+  color: #00b3e0;
+}
+.duda-aral:before {
+  content: "\eebe";
+  color: #0063cb;
+}
+.duda-archiveofourown:before {
+  content: "\eebf";
+  color: #900;
+}
+.duda-archlinux:before {
+  content: "\eec0";
+  color: #1793d1;
+}
+.duda-arduino:before {
+  content: "\eec1";
+  color: #00979d;
+}
+.duda-artstation:before {
+  content: "\eec2";
+  color: #13aff0;
+}
+.duda-arxiv:before {
+  content: "\eec3";
+  color: #b31b1b;
+}
+.duda-asana:before {
+  content: "\eec4";
+}
+.duda-asciidoctor:before {
+  content: "\eec5";
+  color: #e40046;
+}
+.duda-at-and-t:before {
+  content: "\eec6";
+  color: #00a8e0;
+}
+.duda-atlassian:before {
+  content: "\eec7";
+  color: #0052cc;
+}
+.duda-atom:before {
+  content: "\eec8";
+  color: #66595c;
+}
+.duda-audi:before {
+  content: "\eec9";
+  color: #bb0a30;
+}
+.duda-audible:before {
+  content: "\eeca";
+  color: #f8991c;
+}
+.duda-aurelia:before {
+  content: "\eecb";
+  color: #ed2b88;
+}
+.duda-auth0:before {
+  content: "\eecc";
+  color: #eb5424;
+}
+.duda-automatic:before {
+  content: "\eecd";
+  color: #7d8084;
+}
+.duda-autotask:before {
+  content: "\eece";
+  color: #e51937;
+}
+.duda-aventrix:before {
+  content: "\eecf";
+  color: #09d;
+}
+.duda-awesomewm:before {
+  content: "\eed0";
+  color: #535d6c;
+}
+.duda-azureartifacts:before {
+  content: "\eed1";
+  color: #cb2e6d;
+}
+.duda-azuredevops:before {
+  content: "\eed2";
+  color: #0078d7;
+}
+.duda-azurepipelines:before {
+  content: "\eed3";
+  color: #2560e0;
+}
+.duda-babel:before {
+  content: "\eed4";
+  color: #f9dc3e;
+}
+.duda-baidu:before {
+  content: "\eed5";
+  color: #2319dc;
+}
+.duda-bamboo:before {
+  content: "\eed6";
+  color: #0052cc;
+}
+.duda-bancontact:before {
+  content: "\eed7";
+  color: #005498;
+}
+.duda-bandcamp:before {
+  content: "\eed8";
+  color: #408294;
+}
+.duda-bandlab:before {
+  content: "\eed9";
+  color: #dc3710;
+}
+.duda-basecamp1:before {
+  content: "\eeda";
+  color: #5ecc62;
+}
+.duda-bathasu:before {
+  content: "\eedb";
+  color: #00a3e0;
+}
+.duda-beats:before {
+  content: "\eedc";
+  color: #005571;
+}
+.duda-beatsbydre:before {
+  content: "\eedd";
+  color: #e01f3d;
+}
+.duda-behance1:before {
+  content: "\eede";
+  color: #1769ff;
+}
+.duda-bigcartel:before {
+  content: "\eedf";
+}
+.duda-bing:before {
+  content: "\eee0";
+  color: #008373;
+}
+.duda-bit:before {
+  content: "\eee1";
+  color: #73398d;
+}
+.duda-bitbucket:before {
+  content: "\eee2";
+  color: #0052cc;
+}
+.duda-bitcoin:before {
+  content: "\eee3";
+  color: #f7931a;
+}
+.duda-bitdefender:before {
+  content: "\eee4";
+  color: #ed1c24;
+}
+.duda-bitly:before {
+  content: "\eee5";
+  color: #ee6123;
+}
+.duda-bitrise:before {
+  content: "\eee6";
+  color: #683d87;
+}
+.duda-blackberry:before {
+  content: "\eee7";
+}
+.duda-blender:before {
+  content: "\eee8";
+  color: #f5792a;
+}
+.duda-blogger1:before {
+  content: "\eee9";
+  color: #ff5722;
+}
+.duda-bmcsoftware:before {
+  content: "\eeea";
+  color: #fe5000;
+}
+.duda-boeing:before {
+  content: "\eeeb";
+  color: #1d439c;
+}
+.duda-boost:before {
+  content: "\eeec";
+  color: #f69220;
+}
+.duda-bootstrap:before {
+  content: "\eeed";
+  color: #563d7c;
+}
+.duda-bower:before {
+  content: "\eeee";
+  color: #ef5734;
+}
+.duda-box:before {
+  content: "\eeef";
+  color: #0061d5;
+}
+.duda-brand-dot-ai:before {
+  content: "\eef0";
+  color: #0aa0ff;
+}
+.duda-brandfolder:before {
+  content: "\eef1";
+  color: #40d1f5;
+}
+.duda-brave:before {
+  content: "\eef2";
+  color: #fb542b;
+}
+.duda-breaker:before {
+  content: "\eef3";
+  color: #003dad;
+}
+.duda-broadcom:before {
+  content: "\eef4";
+  color: #cc092f;
+}
+.duda-buddy:before {
+  content: "\eef5";
+  color: #1a86fd;
+}
+.duda-buffer:before {
+  content: "\eef6";
+  color: #168eea;
+}
+.duda-buymeacoffee:before {
+  content: "\eef7";
+  color: #ff813f;
+}
+.duda-buzzfeed:before {
+  content: "\eef8";
+  color: #e32;
+}
+.duda-c:before {
+  content: "\eef9";
+  color: #a8b9cc;
+}
+.duda-cakephp:before {
+  content: "\eefa";
+  color: #d33c43;
+}
+.duda-campaignmonitor:before {
+  content: "\eefb";
+  color: #509cf6;
+}
+.duda-canva:before {
+  content: "\eefc";
+  color: #00c4cc;
+}
+.duda-cashapp:before {
+  content: "\eefd";
+  color: #00c244;
+}
+.duda-cassandra:before {
+  content: "\eefe";
+  color: #1287b1;
+}
+.duda-castorama:before {
+  content: "\eeff";
+  color: #0078d7;
+}
+.duda-castro:before {
+  content: "\ef00";
+  color: #00b265;
+}
+.duda-centos:before {
+  content: "\ef01";
+  color: #262577;
+}
+.duda-cevo:before {
+  content: "\ef02";
+  color: #1eabe2;
+}
+.duda-chase:before {
+  content: "\ef03";
+  color: #117aca;
+}
+.duda-chef:before {
+  content: "\ef04";
+  color: #f09820;
+}
+.duda-circle:before {
+  content: "\ef05";
+  color: #8669ae;
+}
+.duda-circleci:before {
+  content: "\ef06";
+}
+.duda-cirrusci:before {
+  content: "\ef07";
+}
+.duda-cisco:before {
+  content: "\ef08";
+  color: #1ba0d7;
+}
+.duda-civicrm:before {
+  content: "\ef09";
+  color: #81c459;
+}
+.duda-clockify:before {
+  content: "\ef0a";
+  color: #03a9f4;
+}
+.duda-clojure:before {
+  content: "\ef0b";
+  color: #5881d8;
+}
+.duda-cloudbees:before {
+  content: "\ef0c";
+  color: #1997b5;
+}
+.duda-cloudflare:before {
+  content: "\ef0d";
+  color: #f38020;
+}
+.duda-cmake:before {
+  content: "\ef0e";
+  color: #064f8c;
+}
+.duda-co-op:before {
+  content: "\ef0f";
+  color: #00b1e7;
+}
+.duda-codacy:before {
+  content: "\ef10";
+}
+.duda-codecademy:before {
+  content: "\ef11";
+  color: #1f4056;
+}
+.duda-codechef:before {
+  content: "\ef12";
+  color: #5b4638;
+}
+.duda-codeclimate:before {
+  content: "\ef13";
+}
+.duda-codecov:before {
+  content: "\ef14";
+  color: #f01f7a;
+}
+.duda-codefactor:before {
+  content: "\ef15";
+  color: #f44a6a;
+}
+.duda-codeforces:before {
+  content: "\ef16";
+  color: #1f8acb;
+}
+.duda-codeigniter:before {
+  content: "\ef17";
+  color: #ee4623;
+}
+.duda-codepen1:before {
+  content: "\ef18";
+}
+.duda-coderwall:before {
+  content: "\ef19";
+  color: #3e8dcc;
+}
+.duda-codesandbox:before {
+  content: "\ef1a";
+}
+.duda-codeship:before {
+  content: "\ef1b";
+  color: #3c4858;
+}
+.duda-codewars:before {
+  content: "\ef1c";
+  color: #ad2c27;
+}
+.duda-codio:before {
+  content: "\ef1d";
+  color: #4574e0;
+}
+.duda-coffeescript:before {
+  content: "\ef1e";
+}
+.duda-coinbase:before {
+  content: "\ef1f";
+  color: #0667d0;
+}
+.duda-commonworkflowlanguage:before {
+  content: "\ef20";
+  color: #b5314c;
+}
+.duda-composer:before {
+  content: "\ef21";
+  color: #885630;
+}
+.duda-compropago:before {
+  content: "\ef22";
+  color: #00aaef;
+}
+.duda-conda-forge:before {
+  content: "\ef23";
+}
+.duda-conekta:before {
+  content: "\ef24";
+  color: #414959;
+}
+.duda-confluence:before {
+  content: "\ef25";
+}
+.duda-coronarenderer:before {
+  content: "\ef26";
+  color: #e6502a;
+}
+.duda-coursera:before {
+  content: "\ef27";
+  color: #2a73cc;
+}
+.duda-coveralls:before {
+  content: "\ef28";
+  color: #3f5767;
+}
+.duda-cpanel:before {
+  content: "\ef29";
+  color: #ff6c2c;
+}
+.duda-cplusplus:before {
+  content: "\ef2a";
+  color: #00599c;
+}
+.duda-creativecommons:before {
+  content: "\ef2b";
+  color: #ef9421;
+}
+.duda-crehana:before {
+  content: "\ef2c";
+  color: #4b22f4;
+}
+.duda-crunchbase:before {
+  content: "\ef2d";
+  color: #0288d1;
+}
+.duda-crunchyroll:before {
+  content: "\ef2e";
+  color: #f47521;
+}
+.duda-cryengine:before {
+  content: "\ef2f";
+}
+.duda-csharp:before {
+  content: "\ef30";
+  color: #239120;
+}
+.duda-css31:before {
+  content: "\ef31";
+  color: #1572b6;
+}
+.duda-csswizardry:before {
+  content: "\ef32";
+  color: #f43059;
+}
+.duda-curl:before {
+  content: "\ef33";
+}
+.duda-d3-dot-js:before {
+  content: "\ef34";
+  color: #f9a03c;
+}
+.duda-dailymotion:before {
+  content: "\ef35";
+  color: #0066dc;
+}
+.duda-dart:before {
+  content: "\ef36";
+  color: #0175c2;
+}
+.duda-dashlane:before {
+  content: "\ef37";
+  color: #007c97;
+}
+.duda-datacamp:before {
+  content: "\ef38";
+  color: #3ac;
+}
+.duda-dazn:before {
+  content: "\ef39";
+  color: #f8f8f5;
+}
+.duda-dblp:before {
+  content: "\ef3a";
+  color: #004f9f;
+}
+.duda-debian:before {
+  content: "\ef3b";
+  color: #a81d33;
+}
+.duda-deepin:before {
+  content: "\ef3c";
+  color: #007cff;
+}
+.duda-deezer:before {
+  content: "\ef3d";
+  color: #feaa2d;
+}
+.duda-delicious1:before {
+  content: "\ef3e";
+  color: #39f;
+}
+.duda-deliveroo:before {
+  content: "\ef3f";
+  color: #00ccbc;
+}
+.duda-dell:before {
+  content: "\ef40";
+  color: #007db8;
+}
+.duda-deno:before {
+  content: "\ef41";
+}
+.duda-dependabot:before {
+  content: "\ef42";
+  color: #025e8c;
+}
+.duda-designernews:before {
+  content: "\ef43";
+  color: #2d72d9;
+}
+.duda-dev-dot-to:before {
+  content: "\ef44";
+}
+.duda-deviantart1:before {
+  content: "\ef45";
+  color: #05cc47;
+}
+.duda-devrant:before {
+  content: "\ef46";
+  color: #f99a66;
+}
+.duda-diaspora:before {
+  content: "\ef47";
+}
+.duda-digg:before {
+  content: "\ef48";
+}
+.duda-digitalocean:before {
+  content: "\ef49";
+  color: #0080ff;
+}
+.duda-directus:before {
+  content: "\ef4a";
+}
+.duda-discord:before {
+  content: "\ef4b";
+  color: #7289da;
+}
+.duda-discourse:before {
+  content: "\ef4c";
+}
+.duda-discover:before {
+  content: "\ef4d";
+  color: #ff6000;
+}
+.duda-disqus:before {
+  content: "\ef4e";
+  color: #2e9fff;
+}
+.duda-disroot:before {
+  content: "\ef4f";
+  color: #50162d;
+}
+.duda-django:before {
+  content: "\ef50";
+}
+.duda-dlna:before {
+  content: "\ef51";
+  color: #48a842;
+}
+.duda-docker:before {
+  content: "\ef52";
+  color: #1488c6;
+}
+.duda-docusign:before {
+  content: "\ef53";
+  color: #fc2;
+}
+.duda-dolby:before {
+  content: "\ef54";
+}
+.duda-dot-net:before {
+  content: "\ef55";
+  color: #5c2d91;
+}
+.duda-draugiem-dot-lv:before {
+  content: "\ef56";
+  color: #f60;
+}
+.duda-dribbble1:before {
+  content: "\ef57";
+  color: #ea4c89;
+}
+.duda-drone:before {
+  content: "\ef58";
+}
+.duda-dropbox1:before {
+  content: "\ef59";
+  color: #0061ff;
+}
+.duda-drupal:before {
+  content: "\ef5a";
+  color: #0678be;
+}
+.duda-dtube:before {
+  content: "\ef5b";
+  color: #f00;
+}
+.duda-duckduckgo:before {
+  content: "\ef5c";
+  color: #de5833;
+}
+.duda-dunked:before {
+  content: "\ef5d";
+  color: #2da9d7;
+}
+.duda-duolingo:before {
+  content: "\ef5e";
+  color: #58cc02;
+}
+.duda-dynatrace:before {
+  content: "\ef5f";
+  color: #1496ff;
+}
+.duda-ebay:before {
+  content: "\ef60";
+  color: #e53238;
+}
+.duda-eclipseide:before {
+  content: "\ef61";
+  color: #2c2255;
+}
+.duda-elastic:before {
+  content: "\ef62";
+  color: #005571;
+}
+.duda-elasticcloud:before {
+  content: "\ef63";
+  color: #005571;
+}
+.duda-elasticsearch:before {
+  content: "\ef64";
+  color: #005571;
+}
+.duda-elasticstack:before {
+  content: "\ef65";
+  color: #005571;
+}
+.duda-electron:before {
+  content: "\ef66";
+  color: #47848f;
+}
+.duda-elementary:before {
+  content: "\ef67";
+  color: #64baff;
+}
+.duda-eleventy:before {
+  content: "\ef68";
+}
+.duda-ello1:before {
+  content: "\ef69";
+}
+.duda-elsevier:before {
+  content: "\ef6a";
+  color: #ff6c00;
+}
+.duda-ember-dot-js:before {
+  content: "\ef6b";
+  color: #e04e39;
+}
+.duda-emlakjet:before {
+  content: "\ef6c";
+  color: #0ae524;
+}
+.duda-empirekred:before {
+  content: "\ef6d";
+  color: #72be50;
+}
+.duda-envato:before {
+  content: "\ef6e";
+  color: #81b441;
+}
+.duda-epel:before {
+  content: "\ef6f";
+  color: #fc0000;
+}
+.duda-epicgames:before {
+  content: "\ef70";
+}
+.duda-epson:before {
+  content: "\ef71";
+  color: #039;
+}
+.duda-esea:before {
+  content: "\ef72";
+  color: #0e9648;
+}
+.duda-eslint:before {
+  content: "\ef73";
+  color: #4b32c3;
+}
+.duda-ethereum:before {
+  content: "\ef74";
+}
+.duda-etsy:before {
+  content: "\ef75";
+  color: #f16521;
+}
+.duda-eventbrite:before {
+  content: "\ef76";
+  color: #f05537;
+}
+.duda-eventstore:before {
+  content: "\ef77";
+  color: #5ab552;
+}
+.duda-evernote:before {
+  content: "\ef78";
+  color: #00a82d;
+}
+.duda-everplaces:before {
+  content: "\ef79";
+  color: #fa4b32;
+}
+.duda-evry:before {
+  content: "\ef7a";
+  color: #063a54;
+}
+.duda-exercism:before {
+  content: "\ef7b";
+  color: #009cab;
+}
+.duda-expertsexchange:before {
+  content: "\ef7c";
+  color: #00aae7;
+}
+.duda-expo:before {
+  content: "\ef7d";
+}
+.duda-eyeem:before {
+  content: "\ef7e";
+}
+.duda-f-droid:before {
+  content: "\ef7f";
+  color: #1976d2;
+}
+.duda-f-secure:before {
+  content: "\ef80";
+  color: #00baff;
+}
+.duda-facebook1:before {
+  content: "\ef81";
+  color: #1877f2;
+}
+.duda-faceit:before {
+  content: "\ef82";
+  color: #f50;
+}
+.duda-fandango:before {
+  content: "\ef83";
+  color: #ff7300;
+}
+.duda-favro:before {
+  content: "\ef84";
+  color: #512da8;
+}
+.duda-feathub:before {
+  content: "\ef85";
+  color: #9b9b9b;
+}
+.duda-fedora:before {
+  content: "\ef86";
+  color: #294172;
+}
+.duda-feedly:before {
+  content: "\ef87";
+  color: #2bb24c;
+}
+.duda-fidoalliance:before {
+  content: "\ef88";
+  color: #ffbf3b;
+}
+.duda-figma:before {
+  content: "\ef89";
+  color: #f24e1e;
+}
+.duda-filezilla:before {
+  content: "\ef8a";
+  color: #bf0000;
+}
+.duda-firebase:before {
+  content: "\ef8b";
+  color: #ffca28;
+}
+.duda-fitbit:before {
+  content: "\ef8c";
+  color: #00b0b9;
+}
+.duda-fiverr:before {
+  content: "\ef8d";
+  color: #1dbf73;
+}
+.duda-flask:before {
+  content: "\ef8e";
+}
+.duda-flattr1:before {
+  content: "\ef8f";
+}
+.duda-flickr1:before {
+  content: "\ef90";
+  color: #0063dc;
+}
+.duda-flipboard:before {
+  content: "\ef91";
+  color: #e12828;
+}
+.duda-floatplane:before {
+  content: "\ef92";
+  color: #00aeef;
+}
+.duda-flutter:before {
+  content: "\ef93";
+  color: #02569b;
+}
+.duda-fnac:before {
+  content: "\ef94";
+  color: #e1a925;
+}
+.duda-formstack:before {
+  content: "\ef95";
+  color: #21b573;
+}
+.duda-fossa:before {
+  content: "\ef96";
+  color: #90a1b8;
+}
+.duda-fossilscm:before {
+  content: "\ef97";
+  color: #548294;
+}
+.duda-foursquare1:before {
+  content: "\ef98";
+  color: #f94877;
+}
+.duda-framer:before {
+  content: "\ef99";
+  color: #05f;
+}
+.duda-freebsd:before {
+  content: "\ef9a";
+  color: #ab2b28;
+}
+.duda-freecodecamp:before {
+  content: "\ef9b";
+  color: #006400;
+}
+.duda-fujifilm:before {
+  content: "\ef9c";
+  color: #ed1a3a;
+}
+.duda-fujitsu:before {
+  content: "\ef9d";
+  color: #f00;
+}
+.duda-furaffinity:before {
+  content: "\ef9e";
+  color: #faaf3a;
+}
+.duda-furrynetwork:before {
+  content: "\ef9f";
+  color: #2e75b4;
+}
+.duda-garmin:before {
+  content: "\efa0";
+  color: #007cc3;
+}
+.duda-gatsby:before {
+  content: "\efa1";
+  color: #639;
+}
+.duda-gauges:before {
+  content: "\efa2";
+  color: #2fa66a;
+}
+.duda-genius:before {
+  content: "\efa3";
+  color: #ffff64;
+}
+.duda-gentoo:before {
+  content: "\efa4";
+  color: #54487a;
+}
+.duda-geocaching:before {
+  content: "\efa5";
+  color: #00874d;
+}
+.duda-gerrit:before {
+  content: "\efa6";
+  color: #eee;
+}
+.duda-ghost:before {
+  content: "\efa7";
+  color: #738a94;
+}
+.duda-gimp:before {
+  content: "\efa8";
+  color: #5c5543;
+}
+.duda-git1:before {
+  content: "\efa9";
+  color: #f05032;
+}
+.duda-gitea:before {
+  content: "\efaa";
+  color: #609926;
+}
+.duda-github1:before {
+  content: "\efab";
+}
+.duda-gitlab:before {
+  content: "\efac";
+  color: #fca121;
+}
+.duda-gitpod:before {
+  content: "\efad";
+  color: #1aa6e4;
+}
+.duda-gitter:before {
+  content: "\efae";
+  color: #ed1965;
+}
+.duda-glassdoor:before {
+  content: "\efaf";
+  color: #0caa41;
+}
+.duda-glitch:before {
+  content: "\efb0";
+  color: #33f;
+}
+.duda-gmail:before {
+  content: "\efb1";
+  color: #d14836;
+}
+.duda-gnome:before {
+  content: "\efb2";
+  color: #4a86cf;
+}
+.duda-gnu:before {
+  content: "\efb3";
+  color: #a42e2b;
+}
+.duda-gnuicecat:before {
+  content: "\efb4";
+  color: #002f5b;
+}
+.duda-gnuprivacyguard:before {
+  content: "\efb5";
+  color: #0093dd;
+}
+.duda-gnusocial:before {
+  content: "\efb6";
+  color: #a22430;
+}
+.duda-go:before {
+  content: "\efb7";
+  color: #00add8;
+}
+.duda-godotengine:before {
+  content: "\efb8";
+  color: #478cbf;
+}
+.duda-gog-dot-com:before {
+  content: "\efb9";
+  color: #86328a;
+}
+.duda-goldenline:before {
+  content: "\efba";
+  color: #f1b92b;
+}
+.duda-goodreads:before {
+  content: "\efbb";
+  color: #630;
+}
+.duda-google1:before {
+  content: "\efbc";
+  color: #4285f4;
+}
+.duda-googleads:before {
+  content: "\efbd";
+  color: #4285f4;
+}
+.duda-googleanalytics:before {
+  content: "\efbe";
+  color: #ffc107;
+}
+.duda-googlechrome:before {
+  content: "\efbf";
+  color: #4285f4;
+}
+.duda-googlecloud:before {
+  content: "\efc0";
+  color: #4285f4;
+}
+.duda-googledrive:before {
+  content: "\efc1";
+  color: #4285f4;
+}
+.duda-googlehangouts:before {
+  content: "\efc2";
+  color: #0c9d58;
+}
+.duda-googlehangoutschat:before {
+  content: "\efc3";
+  color: #00897b;
+}
+.duda-googlekeep:before {
+  content: "\efc4";
+  color: #fb0;
+}
+.duda-googlepay:before {
+  content: "\efc5";
+  color: #5f6368;
+}
+.duda-googleplay:before {
+  content: "\efc6";
+  color: #607d8b;
+}
+.duda-googlepodcasts:before {
+  content: "\efc7";
+  color: #4285f4;
+}
+.duda-googlescholar:before {
+  content: "\efc8";
+  color: #4885ed;
+}
+.duda-googlesearchconsole:before {
+  content: "\efc9";
+  color: #458cf5;
+}
+.duda-gov-dot-uk:before {
+  content: "\efca";
+  color: #005ea5;
+}
+.duda-gradle:before {
+  content: "\efcb";
+}
+.duda-grafana:before {
+  content: "\efcc";
+  color: #f46800;
+}
+.duda-graphcool:before {
+  content: "\efcd";
+  color: #27ae60;
+}
+.duda-graphql:before {
+  content: "\efce";
+  color: #e10098;
+}
+.duda-grav:before {
+  content: "\efcf";
+}
+.duda-gravatar:before {
+  content: "\efd0";
+  color: #1e8cbe;
+}
+.duda-greenkeeper:before {
+  content: "\efd1";
+  color: #00c775;
+}
+.duda-greensock:before {
+  content: "\efd2";
+  color: #88ce02;
+}
+.duda-groovy:before {
+  content: "\efd3";
+  color: #4298b8;
+}
+.duda-groupon:before {
+  content: "\efd4";
+  color: #53a318;
+}
+.duda-gulp:before {
+  content: "\efd5";
+  color: #da4648;
+}
+.duda-gumroad:before {
+  content: "\efd6";
+  color: #36a9ae;
+}
+.duda-gumtree:before {
+  content: "\efd7";
+  color: #72ef36;
+}
+.duda-gutenberg:before {
+  content: "\efd8";
+}
+.duda-habr:before {
+  content: "\efd9";
+  color: #77a2b6;
+}
+.duda-hackaday:before {
+  content: "\efda";
+}
+.duda-hackerearth:before {
+  content: "\efdb";
+  color: #323754;
+}
+.duda-hackerone:before {
+  content: "\efdc";
+  color: #494649;
+}
+.duda-hackerrank:before {
+  content: "\efdd";
+  color: #2ec866;
+}
+.duda-hackhands:before {
+  content: "\efde";
+  color: #00acbd;
+}
+.duda-hackster:before {
+  content: "\efdf";
+  color: #1bacf7;
+}
+.duda-happycow:before {
+  content: "\efe0";
+  color: #7c4ec4;
+}
+.duda-hashnode:before {
+  content: "\efe1";
+  color: #2962ff;
+}
+.duda-haskell:before {
+  content: "\efe2";
+  color: #5d4f85;
+}
+.duda-hatenabookmark:before {
+  content: "\efe3";
+  color: #00a4de;
+}
+.duda-haxe:before {
+  content: "\efe4";
+  color: #ea8220;
+}
+.duda-helm:before {
+  content: "\efe5";
+  color: #277a9f;
+}
+.duda-here:before {
+  content: "\efe6";
+  color: #48dad0;
+}
+.duda-heroku:before {
+  content: "\efe7";
+  color: #430098;
+}
+.duda-hexo:before {
+  content: "\efe8";
+  color: #0e83cd;
+}
+.duda-highly:before {
+  content: "\efe9";
+  color: #ff3c00;
+}
+.duda-hipchat:before {
+  content: "\efea";
+  color: #0052cc;
+}
+.duda-hitachi:before {
+  content: "\efeb";
+  color: #e60027;
+}
+.duda-hockeyapp:before {
+  content: "\efec";
+  color: #009ee1;
+}
+.duda-homeassistant:before {
+  content: "\efed";
+  color: #41bdf5;
+}
+.duda-homify:before {
+  content: "\efee";
+  color: #7dcda3;
+}
+.duda-hootsuite:before {
+  content: "\efef";
+}
+.duda-houzz:before {
+  content: "\eff0";
+  color: #4dbc15;
+}
+.duda-hp:before {
+  content: "\eff1";
+  color: #0096d6;
+}
+.duda-html5:before {
+  content: "\eff2";
+  color: #e34f26;
+}
+.duda-htmlacademy:before {
+  content: "\eff3";
+  color: #302683;
+}
+.duda-huawei:before {
+  content: "\eff4";
+  color: #f00;
+}
+.duda-hubspot:before {
+  content: "\eff5";
+  color: #ff7a59;
+}
+.duda-hulu:before {
+  content: "\eff6";
+  color: #3dbb3d;
+}
+.duda-humblebundle:before {
+  content: "\eff7";
+  color: #cc2929;
+}
+.duda-hurriyetemlak:before {
+  content: "\eff8";
+  color: #e02826;
+}
+.duda-hypothesis:before {
+  content: "\eff9";
+  color: #bd1c2b;
+}
+.duda-iata:before {
+  content: "\effa";
+  color: #004e81;
+}
+.duda-ibm:before {
+  content: "\effb";
+  color: #054ada;
+}
+.duda-icloud:before {
+  content: "\effc";
+  color: #3693f3;
+}
+.duda-icomoon:before {
+  content: "\effd";
+  color: #825794;
+}
+.duda-icon:before {
+  content: "\effe";
+  color: #31b8bb;
+}
+.duda-iconjar:before {
+  content: "\efff";
+  color: #16a5f3;
+}
+.duda-icq:before {
+  content: "\f000";
+  color: #7ebd00;
+}
+.duda-ideal:before {
+  content: "\f001";
+  color: #c06;
+}
+.duda-ifixit:before {
+  content: "\f002";
+  color: #0071ce;
+}
+.duda-imdb:before {
+  content: "\f003";
+  color: #e6b91e;
+}
+.duda-imgur:before {
+  content: "\f004";
+  color: #1bb76e;
+}
+.duda-indeed:before {
+  content: "\f005";
+  color: #2164f3;
+}
+.duda-influxdb:before {
+  content: "\f006";
+  color: #22adf6;
+}
+.duda-inkscape:before {
+  content: "\f007";
+}
+.duda-instacart:before {
+  content: "\f008";
+  color: #43b02a;
+}
+.duda-instagram1:before {
+  content: "\f009";
+  color: #e4405f;
+}
+.duda-instapaper:before {
+  content: "\f00a";
+}
+.duda-intel:before {
+  content: "\f00b";
+  color: #0071c5;
+}
+.duda-intellijidea:before {
+  content: "\f00c";
+}
+.duda-intercom:before {
+  content: "\f00d";
+  color: #1f8ded;
+}
+.duda-internetarchive:before {
+  content: "\f00e";
+}
+.duda-internetexplorer:before {
+  content: "\f00f";
+  color: #0076d6;
+}
+.duda-invision:before {
+  content: "\f010";
+  color: #f36;
+}
+.duda-invoiceninja:before {
+  content: "\f011";
+}
+.duda-ionic:before {
+  content: "\f012";
+  color: #3880ff;
+}
+.duda-ios:before {
+  content: "\f013";
+}
+.duda-ipfs:before {
+  content: "\f014";
+  color: #65c2cb;
+}
+.duda-issuu:before {
+  content: "\f015";
+  color: #f36d5d;
+}
+.duda-itch-dot-io:before {
+  content: "\f016";
+  color: #fa5c5c;
+}
+.duda-itunes:before {
+  content: "\f017";
+  color: #fb5bc5;
+}
+.duda-jabber:before {
+  content: "\f018";
+  color: #c00;
+}
+.duda-java:before {
+  content: "\f019";
+  color: #007396;
+}
+.duda-javascript:before {
+  content: "\f01a";
+  color: #f7df1e;
+}
+.duda-jekyll:before {
+  content: "\f01b";
+  color: #c00;
+}
+.duda-jenkins:before {
+  content: "\f01c";
+  color: #d24939;
+}
+.duda-jest:before {
+  content: "\f01d";
+  color: #c21325;
+}
+.duda-jet:before {
+  content: "\f01e";
+  color: #fbba00;
+}
+.duda-jetbrains:before {
+  content: "\f01f";
+}
+.duda-jinja:before {
+  content: "\f020";
+  color: #b41717;
+}
+.duda-jira:before {
+  content: "\f021";
+}
+.duda-joomla1:before {
+  content: "\f022";
+  color: #5091cd;
+}
+.duda-jquery:before {
+  content: "\f023";
+  color: #0769ad;
+}
+.duda-jsdelivr:before {
+  content: "\f024";
+  color: #e84d3d;
+}
+.duda-jsfiddle:before {
+  content: "\f025";
+  color: #4679a4;
+}
+.duda-json:before {
+  content: "\f026";
+}
+.duda-jupyter:before {
+  content: "\f027";
+  color: #f37626;
+}
+.duda-justgiving:before {
+  content: "\f028";
+  color: #ad29b6;
+}
+.duda-kaggle:before {
+  content: "\f029";
+  color: #20beff;
+}
+.duda-kaios:before {
+  content: "\f02a";
+  color: #6f02b5;
+}
+.duda-kaspersky:before {
+  content: "\f02b";
+  color: #009982;
+}
+.duda-kentico:before {
+  content: "\f02c";
+  color: #f05a22;
+}
+.duda-keras:before {
+  content: "\f02d";
+  color: #d00000;
+}
+.duda-keybase:before {
+  content: "\f02e";
+  color: #33a0ff;
+}
+.duda-keycdn:before {
+  content: "\f02f";
+  color: #3686be;
+}
+.duda-khanacademy:before {
+  content: "\f030";
+  color: #14bf96;
+}
+.duda-kibana:before {
+  content: "\f031";
+  color: #005571;
+}
+.duda-kickstarter:before {
+  content: "\f032";
+  color: #2bde73;
+}
+.duda-kik:before {
+  content: "\f033";
+  color: #82bc23;
+}
+.duda-kirby:before {
+  content: "\f034";
+  color: #ff0100;
+}
+.duda-klout:before {
+  content: "\f035";
+  color: #e44600;
+}
+.duda-known:before {
+  content: "\f036";
+}
+.duda-ko-fi:before {
+  content: "\f037";
+  color: #f16061;
+}
+.duda-kodi:before {
+  content: "\f038";
+  color: #17b2e7;
+}
+.duda-koding:before {
+  content: "\f039";
+  color: #00b057;
+}
+.duda-kotlin:before {
+  content: "\f03a";
+  color: #0095d5;
+}
+.duda-krita:before {
+  content: "\f03b";
+  color: #3babff;
+}
+.duda-kubernetes:before {
+  content: "\f03c";
+  color: #326ce5;
+}
+.duda-laravel:before {
+  content: "\f03d";
+  color: #ff2d20;
+}
+.duda-laravelhorizon:before {
+  content: "\f03e";
+  color: #405263;
+}
+.duda-laravelnova:before {
+  content: "\f03f";
+}
+.duda-last-dot-fm:before {
+  content: "\f040";
+  color: #d51007;
+}
+.duda-lastpass:before {
+  content: "\f041";
+  color: #d32d27;
+}
+.duda-latex:before {
+  content: "\f042";
+  color: #008080;
+}
+.duda-launchpad:before {
+  content: "\f043";
+  color: #f8c300;
+}
+.duda-leetcode:before {
+  content: "\f044";
+  color: #f89f1b;
+}
+.duda-lenovo:before {
+  content: "\f045";
+  color: #e2231a;
+}
+.duda-letsencrypt:before {
+  content: "\f046";
+  color: #003a70;
+}
+.duda-letterboxd:before {
+  content: "\f047";
+  color: #00d735;
+}
+.duda-lgtm:before {
+  content: "\f048";
+  color: #fff;
+}
+.duda-liberapay:before {
+  content: "\f049";
+  color: #f6c915;
+}
+.duda-librarything:before {
+  content: "\f04a";
+}
+.duda-libreoffice1:before {
+  content: "\f04b";
+  color: #18a303;
+}
+.duda-line:before {
+  content: "\f04c";
+  color: #00c300;
+}
+.duda-linewebtoon:before {
+  content: "\f04d";
+  color: #00d564;
+}
+.duda-linkedin1:before {
+  content: "\f04e";
+  color: #0077b5;
+}
+.duda-linode:before {
+  content: "\f04f";
+  color: #00a95c;
+}
+.duda-linux:before {
+  content: "\f050";
+  color: #fcc624;
+}
+.duda-linuxfoundation:before {
+  content: "\f051";
+  color: #009bee;
+}
+.duda-linuxmint:before {
+  content: "\f052";
+  color: #87cf3e;
+}
+.duda-livejournal:before {
+  content: "\f053";
+  color: #00b0ea;
+}
+.duda-livestream:before {
+  content: "\f054";
+  color: #cf202e;
+}
+.duda-llvm:before {
+  content: "\f055";
+}
+.duda-logstash:before {
+  content: "\f056";
+  color: #005571;
+}
+.duda-loop1:before {
+  content: "\f057";
+  color: #f29400;
+}
+.duda-lua:before {
+  content: "\f058";
+  color: #2c2d72;
+}
+.duda-lufthansa:before {
+  content: "\f059";
+  color: #05164d;
+}
+.duda-lumen:before {
+  content: "\f05a";
+  color: #e74430;
+}
+.duda-lyft:before {
+  content: "\f05b";
+  color: #ff00bf;
+}
+.duda-macys:before {
+  content: "\f05c";
+  color: #e21a2c;
+}
+.duda-magento:before {
+  content: "\f05d";
+  color: #ee672f;
+}
+.duda-magisk:before {
+  content: "\f05e";
+  color: #00af9c;
+}
+.duda-mail-dot-ru:before {
+  content: "\f05f";
+  color: #168de2;
+}
+.duda-mailchimp:before {
+  content: "\f060";
+  color: #ffe01b;
+}
+.duda-makerbot:before {
+  content: "\f061";
+  color: #ff1e0d;
+}
+.duda-manageiq:before {
+  content: "\f062";
+  color: #ef2929;
+}
+.duda-manjaro:before {
+  content: "\f063";
+  color: #35bf5c;
+}
+.duda-mapbox:before {
+  content: "\f064";
+}
+.duda-markdown:before {
+  content: "\f065";
+}
+.duda-marketo:before {
+  content: "\f066";
+  color: #5c4c9f;
+}
+.duda-mastercard:before {
+  content: "\f067";
+  color: #eb001b;
+}
+.duda-mastodon:before {
+  content: "\f068";
+  color: #3088d4;
+}
+.duda-materialdesign:before {
+  content: "\f069";
+  color: #757575;
+}
+.duda-mathworks:before {
+  content: "\f06a";
+  color: #0076a8;
+}
+.duda-matrix:before {
+  content: "\f06b";
+}
+.duda-mattermost:before {
+  content: "\f06c";
+  color: #0072c6;
+}
+.duda-matternet:before {
+  content: "\f06d";
+}
+.duda-mcafee:before {
+  content: "\f06e";
+  color: #c01818;
+}
+.duda-mdnwebdocs:before {
+  content: "\f06f";
+}
+.duda-mediafire:before {
+  content: "\f070";
+  color: #1299f3;
+}
+.duda-mediatemple:before {
+  content: "\f071";
+}
+.duda-medium:before {
+  content: "\f072";
+}
+.duda-meetup:before {
+  content: "\f073";
+  color: #ed1c40;
+}
+.duda-mega:before {
+  content: "\f074";
+  color: #d9272e;
+}
+.duda-mendeley:before {
+  content: "\f075";
+  color: #9d1620;
+}
+.duda-mercedes:before {
+  content: "\f076";
+}
+.duda-messenger:before {
+  content: "\f077";
+  color: #00b2ff;
+}
+.duda-meteor:before {
+  content: "\f078";
+  color: #de4f4f;
+}
+.duda-micro-dot-blog:before {
+  content: "\f079";
+  color: #fd8308;
+}
+.duda-microgenetics:before {
+  content: "\f07a";
+  color: #f00;
+}
+.duda-microsoft:before {
+  content: "\f07b";
+  color: #666;
+}
+.duda-microsoftaccess:before {
+  content: "\f07c";
+  color: #ba141a;
+}
+.duda-microsoftazure:before {
+  content: "\f07d";
+  color: #0089d6;
+}
+.duda-microsoftedge:before {
+  content: "\f07e";
+  color: #0078d7;
+}
+.duda-microsoftexcel:before {
+  content: "\f07f";
+  color: #217346;
+}
+.duda-microsoftoffice:before {
+  content: "\f080";
+  color: #e74025;
+}
+.duda-microsoftonedrive:before {
+  content: "\f081";
+  color: #094ab2;
+}
+.duda-microsoftonenote:before {
+  content: "\f082";
+  color: #80397b;
+}
+.duda-microsoftoutlook:before {
+  content: "\f083";
+  color: #0072c6;
+}
+.duda-microsoftpowerpoint:before {
+  content: "\f084";
+  color: #d24726;
+}
+.duda-microsoftteams:before {
+  content: "\f085";
+  color: #6264a7;
+}
+.duda-microsoftword:before {
+  content: "\f086";
+  color: #2b579a;
+}
+.duda-microstrategy:before {
+  content: "\f087";
+  color: #d9232e;
+}
+.duda-minds:before {
+  content: "\f088";
+  color: #fed12f;
+}
+.duda-minetest:before {
+  content: "\f089";
+  color: #53ac56;
+}
+.duda-minutemailer:before {
+  content: "\f08a";
+  color: #3abfe6;
+}
+.duda-mix:before {
+  content: "\f08b";
+  color: #ff8126;
+}
+.duda-mixcloud:before {
+  content: "\f08c";
+  color: #314359;
+}
+.duda-mixer:before {
+  content: "\f08d";
+  color: #002050;
+}
+.duda-mojang:before {
+  content: "\f08e";
+  color: #db1f29;
+}
+.duda-monero:before {
+  content: "\f08f";
+  color: #f60;
+}
+.duda-mongodb:before {
+  content: "\f090";
+  color: #47a248;
+}
+.duda-monkeytie:before {
+  content: "\f091";
+  color: #ffc619;
+}
+.duda-monogram:before {
+  content: "\f092";
+  color: #fdb22a;
+}
+.duda-monster:before {
+  content: "\f093";
+  color: #6e46ae;
+}
+.duda-monzo:before {
+  content: "\f094";
+}
+.duda-moo:before {
+  content: "\f095";
+  color: #00945e;
+}
+.duda-mozilla:before {
+  content: "\f096";
+}
+.duda-mozillafirefox:before {
+  content: "\f097";
+  color: #ff7139;
+}
+.duda-musescore:before {
+  content: "\f098";
+  color: #1a70b8;
+}
+.duda-mxlinux:before {
+  content: "\f099";
+}
+.duda-myspace:before {
+  content: "\f09a";
+}
+.duda-mysql:before {
+  content: "\f09b";
+  color: #4479a1;
+}
+.duda-nativescript:before {
+  content: "\f09c";
+  color: #3655ff;
+}
+.duda-nec:before {
+  content: "\f09d";
+  color: #1414a0;
+}
+.duda-neo4j:before {
+  content: "\f09e";
+  color: #008cc1;
+}
+.duda-netflix:before {
+  content: "\f09f";
+  color: #e50914;
+}
+.duda-netlify:before {
+  content: "\f0a0";
+  color: #00c7b7;
+}
+.duda-next-dot-js:before {
+  content: "\f0a1";
+}
+.duda-nextcloud:before {
+  content: "\f0a2";
+  color: #0082c9;
+}
+.duda-nextdoor:before {
+  content: "\f0a3";
+  color: #00b246;
+}
+.duda-nginx:before {
+  content: "\f0a4";
+  color: #269539;
+}
+.duda-nim:before {
+  content: "\f0a5";
+  color: #ffe953;
+}
+.duda-nintendo:before {
+  content: "\f0a6";
+  color: #8f8f8f;
+}
+.duda-nintendo3ds:before {
+  content: "\f0a7";
+  color: #d12228;
+}
+.duda-nintendogamecube:before {
+  content: "\f0a8";
+  color: #6a5fbb;
+}
+.duda-nintendoswitch:before {
+  content: "\f0a9";
+  color: #e60012;
+}
+.duda-node-dot-js:before {
+  content: "\f0aa";
+  color: #393;
+}
+.duda-node-red:before {
+  content: "\f0ab";
+  color: #8f0000;
+}
+.duda-nodemon:before {
+  content: "\f0ac";
+  color: #76d04b;
+}
+.duda-nokia:before {
+  content: "\f0ad";
+  color: #124191;
+}
+.duda-notion:before {
+  content: "\f0ae";
+}
+.duda-notist:before {
+  content: "\f0af";
+}
+.duda-npm1:before {
+  content: "\f0b0";
+  color: #cb3837;
+}
+.duda-nucleo:before {
+  content: "\f0b1";
+  color: #766dcc;
+}
+.duda-nuget:before {
+  content: "\f0b2";
+  color: #004880;
+}
+.duda-nutanix:before {
+  content: "\f0b3";
+  color: #024da1;
+}
+.duda-nuxt-dot-js:before {
+  content: "\f0b4";
+  color: #00c58e;
+}
+.duda-nvidia:before {
+  content: "\f0b5";
+  color: #76b900;
+}
+.duda-obsstudio:before {
+  content: "\f0b6";
+}
+.duda-ocaml:before {
+  content: "\f0b7";
+  color: #ec6813;
+}
+.duda-octave:before {
+  content: "\f0b8";
+  color: #0790c0;
+}
+.duda-octopusdeploy:before {
+  content: "\f0b9";
+  color: #2f93e0;
+}
+.duda-oculus:before {
+  content: "\f0ba";
+}
+.duda-odnoklassniki:before {
+  content: "\f0bb";
+  color: #f4731c;
+}
+.duda-openaccess:before {
+  content: "\f0bc";
+  color: #f68212;
+}
+.duda-openapiinitiative:before {
+  content: "\f0bd";
+  color: #6ba539;
+}
+.duda-opencollective:before {
+  content: "\f0be";
+  color: #7fadf2;
+}
+.duda-openid:before {
+  content: "\f0bf";
+  color: #f78c40;
+}
+.duda-opensourceinitiative:before {
+  content: "\f0c0";
+  color: #3da639;
+}
+.duda-openssl:before {
+  content: "\f0c1";
+  color: #721412;
+}
+.duda-openstreetmap:before {
+  content: "\f0c2";
+  color: #7ebc6f;
+}
+.duda-opensuse:before {
+  content: "\f0c3";
+  color: #73ba25;
+}
+.duda-openvpn:before {
+  content: "\f0c4";
+  color: #ea7e20;
+}
+.duda-opera1:before {
+  content: "\f0c5";
+  color: #ff1b2d;
+}
+.duda-opsgenie:before {
+  content: "\f0c6";
+}
+.duda-oracle:before {
+  content: "\f0c7";
+  color: #f80000;
+}
+.duda-orcid:before {
+  content: "\f0c8";
+  color: #a6ce39;
+}
+.duda-origin:before {
+  content: "\f0c9";
+  color: #f56c2d;
+}
+.duda-osmc:before {
+  content: "\f0ca";
+}
+.duda-overcast:before {
+  content: "\f0cb";
+  color: #fc7e0f;
+}
+.duda-overleaf:before {
+  content: "\f0cc";
+  color: #47a141;
+}
+.duda-ovh:before {
+  content: "\f0cd";
+  color: #123f6d;
+}
+.duda-pagekit:before {
+  content: "\f0ce";
+}
+.duda-palantir:before {
+  content: "\f0cf";
+}
+.duda-paloaltosoftware:before {
+  content: "\f0d0";
+  color: #83da77;
+}
+.duda-pandora:before {
+  content: "\f0d1";
+  color: #005483;
+}
+.duda-pantheon:before {
+  content: "\f0d2";
+  color: #efd01b;
+}
+.duda-parse-dot-ly:before {
+  content: "\f0d3";
+  color: #5ba745;
+}
+.duda-pastebin:before {
+  content: "\f0d4";
+  color: #02456c;
+}
+.duda-patreon:before {
+  content: "\f0d5";
+  color: #f96854;
+}
+.duda-paypal1:before {
+  content: "\f0d6";
+  color: #00457c;
+}
+.duda-peertube:before {
+  content: "\f0d7";
+  color: #f1680d;
+}
+.duda-periscope:before {
+  content: "\f0d8";
+  color: #40a4c4;
+}
+.duda-php:before {
+  content: "\f0d9";
+  color: #777bb4;
+}
+.duda-pi-hole:before {
+  content: "\f0da";
+  color: #f60d1a;
+}
+.duda-picarto-dot-tv:before {
+  content: "\f0db";
+  color: #1da456;
+}
+.duda-pinboard:before {
+  content: "\f0dc";
+  color: #00f;
+}
+.duda-pingdom:before {
+  content: "\f0dd";
+  color: #fff000;
+}
+.duda-pingup:before {
+  content: "\f0de";
+  color: #00b1ab;
+}
+.duda-pinterest1:before {
+  content: "\f0df";
+  color: #bd081c;
+}
+.duda-pivotaltracker:before {
+  content: "\f0e0";
+  color: #517a9e;
+}
+.duda-pjsip:before {
+  content: "\f0e1";
+  color: #f86001;
+}
+.duda-plangrid:before {
+  content: "\f0e2";
+  color: #0085de;
+}
+.duda-player-dot-me:before {
+  content: "\f0e3";
+  color: #c0379a;
+}
+.duda-playerfm:before {
+  content: "\f0e4";
+  color: #c8122a;
+}
+.duda-playstation:before {
+  content: "\f0e5";
+  color: #003791;
+}
+.duda-playstation3:before {
+  content: "\f0e6";
+  color: #003791;
+}
+.duda-playstation4:before {
+  content: "\f0e7";
+  color: #003791;
+}
+.duda-plesk:before {
+  content: "\f0e8";
+  color: #52bbe6;
+}
+.duda-plex:before {
+  content: "\f0e9";
+  color: #e5a00d;
+}
+.duda-pluralsight:before {
+  content: "\f0ea";
+  color: #f15b2a;
+}
+.duda-plurk:before {
+  content: "\f0eb";
+  color: #ff574d;
+}
+.duda-pocket:before {
+  content: "\f0ec";
+  color: #ef3f56;
+}
+.duda-pocketcasts:before {
+  content: "\f0ed";
+  color: #f43e37;
+}
+.duda-postgresql:before {
+  content: "\f0ee";
+  color: #336791;
+}
+.duda-postman:before {
+  content: "\f0ef";
+  color: #ff6c37;
+}
+.duda-postwoman:before {
+  content: "\f0f0";
+  color: #50fa7b;
+}
+.duda-powershell:before {
+  content: "\f0f1";
+  color: #5391fe;
+}
+.duda-prestashop:before {
+  content: "\f0f2";
+  color: #df0067;
+}
+.duda-prettier:before {
+  content: "\f0f3";
+  color: #f7b93e;
+}
+.duda-prismic:before {
+  content: "\f0f4";
+  color: #484a7a;
+}
+.duda-probot:before {
+  content: "\f0f5";
+  color: #00b0d8;
+}
+.duda-processwire:before {
+  content: "\f0f6";
+  color: #ef145f;
+}
+.duda-producthunt:before {
+  content: "\f0f7";
+  color: #da552f;
+}
+.duda-prometheus:before {
+  content: "\f0f8";
+  color: #e6522c;
+}
+.duda-proto-dot-io:before {
+  content: "\f0f9";
+  color: #34a7c1;
+}
+.duda-protonmail:before {
+  content: "\f0fa";
+  color: #8b89cc;
+}
+.duda-proxmox:before {
+  content: "\f0fb";
+  color: #e57000;
+}
+.duda-publons:before {
+  content: "\f0fc";
+  color: #369;
+}
+.duda-purescript:before {
+  content: "\f0fd";
+}
+.duda-pypi:before {
+  content: "\f0fe";
+  color: #3775a9;
+}
+.duda-python:before {
+  content: "\f0ff";
+  color: #3776ab;
+}
+.duda-pytorch:before {
+  content: "\f100";
+  color: #ee4c2c;
+}
+.duda-pyup:before {
+  content: "\f101";
+  color: #9f55ff;
+}
+.duda-qemu:before {
+  content: "\f102";
+  color: #f60;
+}
+.duda-qgis:before {
+  content: "\f103";
+  color: #589632;
+}
+.duda-qiita:before {
+  content: "\f104";
+  color: #55c500;
+}
+.duda-qualcomm:before {
+  content: "\f105";
+  color: #3253dc;
+}
+.duda-quantcast:before {
+  content: "\f106";
+}
+.duda-quantopian:before {
+  content: "\f107";
+  color: #c50000;
+}
+.duda-quarkus:before {
+  content: "\f108";
+  color: #4695eb;
+}
+.duda-quicktime:before {
+  content: "\f109";
+  color: #1c69f0;
+}
+.duda-quip:before {
+  content: "\f10a";
+  color: #f27557;
+}
+.duda-quora:before {
+  content: "\f10b";
+  color: #b92b27;
+}
+.duda-qwiklabs:before {
+  content: "\f10c";
+  color: #f5cd0e;
+}
+.duda-qzone:before {
+  content: "\f10d";
+  color: #fece00;
+}
+.duda-r:before {
+  content: "\f10e";
+  color: #276dc3;
+}
+.duda-rabbitmq:before {
+  content: "\f10f";
+  color: #f60;
+}
+.duda-radiopublic:before {
+  content: "\f110";
+  color: #ce262f;
+}
+.duda-rails:before {
+  content: "\f111";
+  color: #c00;
+}
+.duda-raspberrypi:before {
+  content: "\f112";
+  color: #c51a4a;
+}
+.duda-react:before {
+  content: "\f113";
+  color: #61dafb;
+}
+.duda-reactos:before {
+  content: "\f114";
+  color: #08c;
+}
+.duda-reactrouter:before {
+  content: "\f115";
+  color: #ca4245;
+}
+.duda-readthedocs:before {
+  content: "\f116";
+  color: #8ca1af;
+}
+.duda-realm:before {
+  content: "\f117";
+  color: #39477f;
+}
+.duda-reason:before {
+  content: "\f118";
+  color: #dd4b39;
+}
+.duda-reasonstudios:before {
+  content: "\f119";
+  color: #fff;
+}
+.duda-redbubble:before {
+  content: "\f11a";
+  color: #e41321;
+}
+.duda-reddit1:before {
+  content: "\f11b";
+  color: #ff4500;
+}
+.duda-redhat:before {
+  content: "\f11c";
+  color: #e00;
+}
+.duda-redis:before {
+  content: "\f11d";
+  color: #d82c20;
+}
+.duda-redux:before {
+  content: "\f11e";
+  color: #764abc;
+}
+.duda-renren1:before {
+  content: "\f11f";
+  color: #217dc6;
+}
+.duda-repl-dot-it:before {
+  content: "\f120";
+  color: #667881;
+}
+.duda-researchgate:before {
+  content: "\f121";
+  color: #0cb;
+}
+.duda-reverbnation:before {
+  content: "\f122";
+  color: #e43526;
+}
+.duda-riot:before {
+  content: "\f123";
+  color: #368bd6;
+}
+.duda-ripple:before {
+  content: "\f124";
+  color: #0085c0;
+}
+.duda-riseup:before {
+  content: "\f125";
+  color: #5e9ee3;
+}
+.duda-rollup-dot-js:before {
+  content: "\f126";
+  color: #ec4a3f;
+}
+.duda-roots:before {
+  content: "\f127";
+  color: #525ddc;
+}
+.duda-roundcube:before {
+  content: "\f128";
+  color: #37beff;
+}
+.duda-rss1:before {
+  content: "\f129";
+  color: #ffa500;
+}
+.duda-rstudio:before {
+  content: "\f12a";
+  color: #75aadb;
+}
+.duda-ruby:before {
+  content: "\f12b";
+  color: #cc342d;
+}
+.duda-rubygems:before {
+  content: "\f12c";
+  color: #e9573f;
+}
+.duda-runkeeper:before {
+  content: "\f12d";
+  color: #2dc9d7;
+}
+.duda-rust:before {
+  content: "\f12e";
+}
+.duda-safari1:before {
+  content: "\f12f";
+}
+.duda-sahibinden:before {
+  content: "\f130";
+  color: #ffe800;
+}
+.duda-salesforce:before {
+  content: "\f131";
+  color: #00a1e0;
+}
+.duda-saltstack:before {
+  content: "\f132";
+  color: #00eace;
+}
+.duda-samsung:before {
+  content: "\f133";
+  color: #1428a0;
+}
+.duda-samsungpay:before {
+  content: "\f134";
+  color: #1428a0;
+}
+.duda-sap:before {
+  content: "\f135";
+  color: #008fd3;
+}
+.duda-sass:before {
+  content: "\f136";
+  color: #c69;
+}
+.duda-saucelabs:before {
+  content: "\f137";
+  color: #e2231a;
+}
+.duda-scala:before {
+  content: "\f138";
+  color: #dc322f;
+}
+.duda-scaleway:before {
+  content: "\f139";
+  color: #4f0599;
+}
+.duda-scribd:before {
+  content: "\f13a";
+  color: #1a7bba;
+}
+.duda-scrutinizerci:before {
+  content: "\f13b";
+  color: #8a9296;
+}
+.duda-seagate:before {
+  content: "\f13c";
+  color: #72be4f;
+}
+.duda-sega:before {
+  content: "\f13d";
+  color: #0089cf;
+}
+.duda-sellfy:before {
+  content: "\f13e";
+  color: #21b352;
+}
+.duda-semaphoreci:before {
+  content: "\f13f";
+  color: #19a974;
+}
+.duda-sensu:before {
+  content: "\f140";
+  color: #89c967;
+}
+.duda-sentry:before {
+  content: "\f141";
+  color: #fb4226;
+}
+.duda-serverfault:before {
+  content: "\f142";
+  color: #e7282d;
+}
+.duda-shazam:before {
+  content: "\f143";
+  color: #08f;
+}
+.duda-shell:before {
+  content: "\f144";
+  color: #ffd500;
+}
+.duda-shopify:before {
+  content: "\f145";
+  color: #7ab55c;
+}
+.duda-showpad:before {
+  content: "\f146";
+  color: #2d2e83;
+}
+.duda-siemens:before {
+  content: "\f147";
+  color: #099;
+}
+.duda-signal:before {
+  content: "\f148";
+  color: #2592e9;
+}
+.duda-simpleicons:before {
+  content: "\f149";
+}
+.duda-sinaweibo:before {
+  content: "\f14a";
+  color: #e6162d;
+}
+.duda-sitepoint:before {
+  content: "\f14b";
+  color: #258aaf;
+}
+.duda-sketch:before {
+  content: "\f14c";
+  color: #f7b500;
+}
+.duda-skillshare:before {
+  content: "\f14d";
+  color: #17c5cb;
+}
+.duda-skyliner:before {
+  content: "\f14e";
+  color: #2fcea0;
+}
+.duda-skype1:before {
+  content: "\f14f";
+  color: #00aff0;
+}
+.duda-slack:before {
+  content: "\f150";
+  color: #4a154b;
+}
+.duda-slashdot:before {
+  content: "\f151";
+  color: #026664;
+}
+.duda-slickpic:before {
+  content: "\f152";
+  color: #ff880f;
+}
+.duda-slides:before {
+  content: "\f153";
+  color: #e4637c;
+}
+.duda-smashingmagazine:before {
+  content: "\f154";
+  color: #e85c33;
+}
+.duda-smugmug:before {
+  content: "\f155";
+  color: #6db944;
+}
+.duda-snapchat:before {
+  content: "\f156";
+  color: #fffc00;
+}
+.duda-snapcraft:before {
+  content: "\f157";
+  color: #82bea0;
+}
+.duda-snyk:before {
+  content: "\f158";
+  color: #4c4a73;
+}
+.duda-society6:before {
+  content: "\f159";
+}
+.duda-socket-dot-io:before {
+  content: "\f15a";
+}
+.duda-sogou:before {
+  content: "\f15b";
+  color: #fb6022;
+}
+.duda-solus:before {
+  content: "\f15c";
+  color: #5294e2;
+}
+.duda-sonarcloud:before {
+  content: "\f15d";
+  color: #f3702a;
+}
+.duda-sonarlint:before {
+  content: "\f15e";
+  color: #cc2026;
+}
+.duda-sonarqube:before {
+  content: "\f15f";
+  color: #4e9bcd;
+}
+.duda-sonarsource:before {
+  content: "\f160";
+  color: #cb3032;
+}
+.duda-songkick:before {
+  content: "\f161";
+  color: #f80046;
+}
+.duda-sonicwall:before {
+  content: "\f162";
+  color: #f60;
+}
+.duda-sonos:before {
+  content: "\f163";
+}
+.duda-soundcloud1:before {
+  content: "\f164";
+  color: #f30;
+}
+.duda-sourceengine:before {
+  content: "\f165";
+  color: #f79a10;
+}
+.duda-sourceforge:before {
+  content: "\f166";
+  color: #535353;
+}
+.duda-sourcegraph:before {
+  content: "\f167";
+  color: #00b4f2;
+}
+.duda-spacemacs:before {
+  content: "\f168";
+  color: #9266cc;
+}
+.duda-spacex:before {
+  content: "\f169";
+  color: #005288;
+}
+.duda-sparkfun:before {
+  content: "\f16a";
+  color: #e53525;
+}
+.duda-sparkpost:before {
+  content: "\f16b";
+  color: #fa6423;
+}
+.duda-spdx:before {
+  content: "\f16c";
+  color: #4398cc;
+}
+.duda-speakerdeck:before {
+  content: "\f16d";
+  color: #396;
+}
+.duda-spectrum:before {
+  content: "\f16e";
+  color: #7b16ff;
+}
+.duda-spotify1:before {
+  content: "\f16f";
+  color: #1ed760;
+}
+.duda-spotlight:before {
+  content: "\f170";
+  color: #352a71;
+}
+.duda-spreaker:before {
+  content: "\f171";
+  color: #f5c300;
+}
+.duda-spring:before {
+  content: "\f172";
+  color: #6db33f;
+}
+.duda-sprint:before {
+  content: "\f173";
+  color: #ffce0a;
+}
+.duda-square:before {
+  content: "\f174";
+}
+.duda-squarespace:before {
+  content: "\f175";
+}
+.duda-stackbit:before {
+  content: "\f176";
+  color: #3eb0fd;
+}
+.duda-stackexchange:before {
+  content: "\f177";
+  color: #1e5397;
+}
+.duda-stackoverflow1:before {
+  content: "\f178";
+  color: #fe7a16;
+}
+.duda-stackpath:before {
+  content: "\f179";
+}
+.duda-stackshare:before {
+  content: "\f17a";
+  color: #0690fa;
+}
+.duda-stadia:before {
+  content: "\f17b";
+  color: #cd2640;
+}
+.duda-statamic:before {
+  content: "\f17c";
+}
+.duda-staticman:before {
+  content: "\f17d";
+}
+.duda-statuspage:before {
+  content: "\f17e";
+}
+.duda-steam1:before {
+  content: "\f17f";
+}
+.duda-steamworks:before {
+  content: "\f180";
+}
+.duda-steem:before {
+  content: "\f181";
+  color: #4ba2f2;
+}
+.duda-steemit:before {
+  content: "\f182";
+  color: #06d6a9;
+}
+.duda-steinberg:before {
+  content: "\f183";
+  color: #c90827;
+}
+.duda-stencyl:before {
+  content: "\f184";
+  color: #8e1c04;
+}
+.duda-stitcher:before {
+  content: "\f185";
+}
+.duda-storify:before {
+  content: "\f186";
+  color: #3a98d9;
+}
+.duda-storybook:before {
+  content: "\f187";
+  color: #ff4785;
+}
+.duda-strapi:before {
+  content: "\f188";
+  color: #2e7eea;
+}
+.duda-strava:before {
+  content: "\f189";
+  color: #fc4c02;
+}
+.duda-stripe:before {
+  content: "\f18a";
+  color: #008cdd;
+}
+.duda-strongswan:before {
+  content: "\f18b";
+  color: #e00033;
+}
+.duda-stubhub:before {
+  content: "\f18c";
+  color: #003168;
+}
+.duda-styled-components:before {
+  content: "\f18d";
+  color: #db7093;
+}
+.duda-styleshare:before {
+  content: "\f18e";
+}
+.duda-stylus:before {
+  content: "\f18f";
+}
+.duda-sublimetext:before {
+  content: "\f190";
+  color: #ff9800;
+}
+.duda-subversion:before {
+  content: "\f191";
+  color: #809cc9;
+}
+.duda-superuser:before {
+  content: "\f192";
+  color: #2eace3;
+}
+.duda-svelte:before {
+  content: "\f193";
+  color: #ff3e00;
+}
+.duda-svg1:before {
+  content: "\f194";
+  color: #ffb13b;
+}
+.duda-svgo:before {
+  content: "\f195";
+  color: #14b9ff;
+}
+.duda-swagger:before {
+  content: "\f196";
+  color: #85ea2d;
+}
+.duda-swarm:before {
+  content: "\f197";
+  color: #ffa633;
+}
+.duda-swift:before {
+  content: "\f198";
+  color: #fa7343;
+}
+.duda-symantec:before {
+  content: "\f199";
+  color: #fdb511;
+}
+.duda-symfony:before {
+  content: "\f19a";
+}
+.duda-synology:before {
+  content: "\f19b";
+  color: #b6b5b6;
+}
+.duda-t-mobile:before {
+  content: "\f19c";
+  color: #e20074;
+}
+.duda-tableau:before {
+  content: "\f19d";
+  color: #e97627;
+}
+.duda-tails:before {
+  content: "\f19e";
+  color: #56347c;
+}
+.duda-tailwindcss:before {
+  content: "\f19f";
+  color: #38b2ac;
+}
+.duda-tapas:before {
+  content: "\f1a0";
+  color: #ffce00;
+}
+.duda-teamviewer:before {
+  content: "\f1a1";
+  color: #0e8ee9;
+}
+.duda-ted:before {
+  content: "\f1a2";
+  color: #e62b1e;
+}
+.duda-teespring:before {
+  content: "\f1a3";
+  color: #39ace6;
+}
+.duda-telegram1:before {
+  content: "\f1a4";
+  color: #2ca5e0;
+}
+.duda-tencentqq:before {
+  content: "\f1a5";
+  color: #eb1923;
+}
+.duda-tencentweibo:before {
+  content: "\f1a6";
+  color: #20b8e5;
+}
+.duda-tensorflow:before {
+  content: "\f1a7";
+  color: #ff6f00;
+}
+.duda-teradata:before {
+  content: "\f1a8";
+  color: #f37440;
+}
+.duda-terraform:before {
+  content: "\f1a9";
+  color: #623ce4;
+}
+.duda-tesla:before {
+  content: "\f1aa";
+  color: #c00;
+}
+.duda-themighty:before {
+  content: "\f1ab";
+  color: #d0072a;
+}
+.duda-themoviedatabase:before {
+  content: "\f1ac";
+  color: #01d277;
+}
+.duda-tidal:before {
+  content: "\f1ad";
+}
+.duda-tiktok:before {
+  content: "\f1ae";
+}
+.duda-timescale:before {
+  content: "\f1af";
+  color: #fdb515;
+}
+.duda-tinder:before {
+  content: "\f1b0";
+  color: #ff6b6b;
+}
+.duda-todoist:before {
+  content: "\f1b1";
+  color: #e44332;
+}
+.duda-toggl:before {
+  content: "\f1b2";
+  color: #e01b22;
+}
+.duda-topcoder:before {
+  content: "\f1b3";
+  color: #29a8e0;
+}
+.duda-toptal:before {
+  content: "\f1b4";
+  color: #3863a0;
+}
+.duda-tor:before {
+  content: "\f1b5";
+  color: #7e4798;
+}
+.duda-toshiba:before {
+  content: "\f1b6";
+  color: #f00;
+}
+.duda-trainerroad:before {
+  content: "\f1b7";
+  color: #e12726;
+}
+.duda-trakt:before {
+  content: "\f1b8";
+  color: #ed1c24;
+}
+.duda-travisci:before {
+  content: "\f1b9";
+  color: #3eaaaf;
+}
+.duda-treehouse:before {
+  content: "\f1ba";
+  color: #5fcf80;
+}
+.duda-trello1:before {
+  content: "\f1bb";
+  color: #0079bf;
+}
+.duda-trendmicro:before {
+  content: "\f1bc";
+  color: #d71921;
+}
+.duda-tripadvisor:before {
+  content: "\f1bd";
+  color: #00af87;
+}
+.duda-trulia:before {
+  content: "\f1be";
+  color: #53b50a;
+}
+.duda-trustpilot:before {
+  content: "\f1bf";
+  color: #00b67a;
+}
+.duda-tumblr1:before {
+  content: "\f1c0";
+  color: #36465d;
+}
+.duda-turkishairlines:before {
+  content: "\f1c1";
+  color: #c70a0c;
+}
+.duda-twilio:before {
+  content: "\f1c2";
+  color: #f22f46;
+}
+.duda-twitch1:before {
+  content: "\f1c3";
+  color: #6441a4;
+}
+.duda-twitter1:before {
+  content: "\f1c4";
+  color: #1da1f2;
+}
+.duda-twoo:before {
+  content: "\f1c5";
+  color: #ff7102;
+}
+.duda-typescript:before {
+  content: "\f1c6";
+  color: #007acc;
+}
+.duda-typo3:before {
+  content: "\f1c7";
+  color: #ff8700;
+}
+.duda-uber:before {
+  content: "\f1c8";
+}
+.duda-ubereats:before {
+  content: "\f1c9";
+  color: #5fb709;
+}
+.duda-ubisoft:before {
+  content: "\f1ca";
+}
+.duda-ublockorigin:before {
+  content: "\f1cb";
+  color: #800000;
+}
+.duda-ubuntu:before {
+  content: "\f1cc";
+  color: #e95420;
+}
+.duda-udacity:before {
+  content: "\f1cd";
+  color: #01b3e3;
+}
+.duda-udemy:before {
+  content: "\f1ce";
+  color: #ec5252;
+}
+.duda-uikit:before {
+  content: "\f1cf";
+  color: #2396f3;
+}
+.duda-umbraco:before {
+  content: "\f1d0";
+  color: #00bec1;
+}
+.duda-unity:before {
+  content: "\f1d1";
+}
+.duda-unrealengine:before {
+  content: "\f1d2";
+}
+.duda-unsplash:before {
+  content: "\f1d3";
+}
+.duda-untappd:before {
+  content: "\f1d4";
+  color: #ffc000;
+}
+.duda-upwork:before {
+  content: "\f1d5";
+  color: #6fda44;
+}
+.duda-v:before {
+  content: "\f1d6";
+  color: #5d87bf;
+}
+.duda-v8:before {
+  content: "\f1d7";
+  color: #4b8bf5;
+}
+.duda-vagrant:before {
+  content: "\f1d8";
+  color: #1563ff;
+}
+.duda-valve:before {
+  content: "\f1d9";
+  color: #f74843;
+}
+.duda-veeam:before {
+  content: "\f1da";
+  color: #00b336;
+}
+.duda-venmo:before {
+  content: "\f1db";
+  color: #3d95ce;
+}
+.duda-verizon:before {
+  content: "\f1dc";
+  color: #cd040b;
+}
+.duda-viadeo:before {
+  content: "\f1dd";
+  color: #f88d2d;
+}
+.duda-viber:before {
+  content: "\f1de";
+  color: #665cac;
+}
+.duda-vim:before {
+  content: "\f1df";
+  color: #019733;
+}
+.duda-vimeo1:before {
+  content: "\f1e0";
+  color: #1ab7ea;
+}
+.duda-vine1:before {
+  content: "\f1e1";
+  color: #11b48a;
+}
+.duda-virb:before {
+  content: "\f1e2";
+  color: #0093da;
+}
+.duda-visa:before {
+  content: "\f1e3";
+  color: #142787;
+}
+.duda-visualstudio:before {
+  content: "\f1e4";
+  color: #5c2d91;
+}
+.duda-visualstudiocode:before {
+  content: "\f1e5";
+  color: #007acc;
+}
+.duda-vk1:before {
+  content: "\f1e6";
+  color: #4680c2;
+}
+.duda-vlcmediaplayer:before {
+  content: "\f1e7";
+  color: #f80;
+}
+.duda-vodafone:before {
+  content: "\f1e8";
+  color: #e60000;
+}
+.duda-volkswagen:before {
+  content: "\f1e9";
+  color: #151f5d;
+}
+.duda-vsco:before {
+  content: "\f1ea";
+}
+.duda-vue-dot-js:before {
+  content: "\f1eb";
+  color: #4fc08d;
+}
+.duda-w3c:before {
+  content: "\f1ec";
+  color: #005a9c;
+}
+.duda-wattpad:before {
+  content: "\f1ed";
+  color: #f68d12;
+}
+.duda-waze:before {
+  content: "\f1ee";
+  color: #333665;
+}
+.duda-weasyl:before {
+  content: "\f1ef";
+  color: #900;
+}
+.duda-webauthn:before {
+  content: "\f1f0";
+  color: #3423a6;
+}
+.duda-webcomponents-dot-org:before {
+  content: "\f1f1";
+  color: #29abe2;
+}
+.duda-webmin:before {
+  content: "\f1f2";
+  color: #7da0d0;
+}
+.duda-webpack:before {
+  content: "\f1f3";
+  color: #8dd6f9;
+}
+.duda-webstorm:before {
+  content: "\f1f4";
+}
+.duda-wechat:before {
+  content: "\f1f5";
+  color: #7bb32e;
+}
+.duda-whatsapp1:before {
+  content: "\f1f6";
+  color: #25d366;
+}
+.duda-wheniwork:before {
+  content: "\f1f7";
+  color: #51a33d;
+}
+.duda-whitesource:before {
+  content: "\f1f8";
+  color: #161d4e;
+}
+.duda-wii:before {
+  content: "\f1f9";
+  color: #8b8b8b;
+}
+.duda-wiiu:before {
+  content: "\f1fa";
+  color: #8b8b8b;
+}
+.duda-wikipedia1:before {
+  content: "\f1fb";
+}
+.duda-windows1:before {
+  content: "\f1fc";
+  color: #0078d6;
+}
+.duda-wire:before {
+  content: "\f1fd";
+}
+.duda-wireguard:before {
+  content: "\f1fe";
+  color: #88171a;
+}
+.duda-wish:before {
+  content: "\f1ff";
+  color: #2fb7ec;
+}
+.duda-wix:before {
+  content: "\f200";
+  color: #faad4d;
+}
+.duda-wolfram:before {
+  content: "\f201";
+  color: #d10;
+}
+.duda-wolframlanguage:before {
+  content: "\f202";
+  color: #d10;
+}
+.duda-wolframmathematica:before {
+  content: "\f203";
+  color: #d10;
+}
+.duda-wordpress1:before {
+  content: "\f204";
+  color: #21759b;
+}
+.duda-workplace:before {
+  content: "\f205";
+}
+.duda-wpengine:before {
+  content: "\f206";
+  color: #40bac8;
+}
+.duda-write-dot-as:before {
+  content: "\f207";
+  color: #5bc4ee;
+}
+.duda-x-dot-org:before {
+  content: "\f208";
+  color: #f28834;
+}
+.duda-x-pack:before {
+  content: "\f209";
+  color: #005571;
+}
+.duda-xamarin:before {
+  content: "\f20a";
+  color: #4393d4;
+}
+.duda-xbox:before {
+  content: "\f20b";
+  color: #107c10;
+}
+.duda-xcode:before {
+  content: "\f20c";
+  color: #1575f9;
+}
+.duda-xdadevelopers:before {
+  content: "\f20d";
+  color: #f59812;
+}
+.duda-xero:before {
+  content: "\f20e";
+  color: #13b5ea;
+}
+.duda-xfce:before {
+  content: "\f20f";
+  color: #2284f2;
+}
+.duda-xiaomi:before {
+  content: "\f210";
+  color: #fa6709;
+}
+.duda-xing1:before {
+  content: "\f211";
+  color: #006567;
+}
+.duda-xmpp:before {
+  content: "\f212";
+  color: #002b5c;
+}
+.duda-xrp:before {
+  content: "\f213";
+  color: #25a768;
+}
+.duda-xsplit:before {
+  content: "\f214";
+  color: #0095de;
+}
+.duda-yahoo1:before {
+  content: "\f215";
+  color: #6001d2;
+}
+.duda-yamahacorporation:before {
+  content: "\f216";
+  color: #4b1e78;
+}
+.duda-yamahamotorcorporation:before {
+  content: "\f217";
+  color: #e60012;
+}
+.duda-yammer:before {
+  content: "\f218";
+  color: #0072c6;
+}
+.duda-yandex:before {
+  content: "\f219";
+  color: #f00;
+}
+.duda-yarn:before {
+  content: "\f21a";
+  color: #2c8ebb;
+}
+.duda-ycombinator:before {
+  content: "\f21b";
+  color: #f0652f;
+}
+.duda-yelp1:before {
+  content: "\f21c";
+  color: #d32323;
+}
+.duda-youtube1:before {
+  content: "\f21d";
+  color: #f00;
+}
+.duda-zalando:before {
+  content: "\f21e";
+  color: #ff6900;
+}
+.duda-zapier:before {
+  content: "\f21f";
+  color: #ff4a00;
+}
+.duda-zeit:before {
+  content: "\f220";
+}
+.duda-zend:before {
+  content: "\f221";
+  color: #0679ea;
+}
+.duda-zendesk:before {
+  content: "\f222";
+}
+.duda-zendframework:before {
+  content: "\f223";
+  color: #68b604;
+}
+.duda-zeromq:before {
+  content: "\f224";
+  color: #df0000;
+}
+.duda-zerply:before {
+  content: "\f225";
+  color: #9dbc7a;
+}
+.duda-zhihu:before {
+  content: "\f226";
+  color: #0084ff;
+}
+.duda-zillow:before {
+  content: "\f227";
+  color: #0074e4;
+}
+.duda-zingat:before {
+  content: "\f228";
+  color: #009cfb;
+}
+.duda-zoom:before {
+  content: "\f229";
+  color: #2d8cff;
+}
+.duda-zorin:before {
+  content: "\f22a";
+  color: #0cc1f3;
+}
+.duda-zulip:before {
+  content: "\f22b";
+  color: #52c2af;
+}

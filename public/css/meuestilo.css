@@ -1,0 +1,28 @@
+.me {
+    background-color: brown;
+}
+
+.jumbotron {
+    margin-bottom: 0;
+}
+
+.meuicone {
+    width: 80px;
+}
+
+.navbar-nav nav-item {
+    border-radius: 30px;
+}
+
+.destaque {
+    padding: 20px;
+    padding-left: 0;
+}
+
+.col-6 h2 {
+    font-weight: bold;
+}
+
+form div label strong {
+    font-size: 20px;
+}
